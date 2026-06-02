@@ -91,6 +91,14 @@ public:
 
     bool operator<(const State& other) const { return this->board < other.board; }
     bool operator==(const State& other) const { return this->board == other.board; }
+
+    uint64_t get_hash() const {
+        uint64_t hash = 0;
+        for (int val : board) {
+            hash = (hash << 4) | val; 
+        }
+        return hash;
+    }
 };
 
 struct CompareF {
