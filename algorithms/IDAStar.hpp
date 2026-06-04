@@ -6,7 +6,7 @@
 #include <climits>
 #include <algorithm>
 #include <chrono>
-#include "../State.hpp"
+#include "../domain/State.hpp"
 #include "IAlgorithm.hpp"
 #include "../heuristics/IHeuristic.hpp"
 

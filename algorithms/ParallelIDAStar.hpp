@@ -10,7 +10,7 @@
 #include <chrono>
 #include <thread>
 #include <unordered_set>
-#include "../State.hpp"
+#include "../domain/State.hpp"
 #include "IAlgorithm.hpp"
 #include "../heuristics/IHeuristic.hpp"
 
