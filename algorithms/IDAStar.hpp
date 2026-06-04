@@ -23,10 +23,10 @@ public:
         
         int f = current->get_f(); 
 
-        // Se o custo atual ultrapassou o limite desta iteração, abortamos o mergulho
+        
         if (f > threshold) return f;
         
-        // Se achamos o objetivo, salvamos o ponteiro e retornamos -1 (sinal de sucesso)
+        
         if (current->is_goal()) {
             goal_state = current;
             return -1; 
@@ -34,13 +34,13 @@ public:
 
         int min_exceeded = INT_MAX;
         
-        // Gera os filhos do estado atual
+        
         std::vector<State*> children = current->generate_successors(current);
         nodes_expanded++;
 
         for (State* child : children) {
-            // Se o objetivo já foi encontrado por um "irmão" anterior neste loop,
-            // os irmãos restantes são lixo inútil. Deletamos para evitar vazamento.
+            
+            
             if (goal_state != nullptr) {
                 delete child;
                 continue;
@@ -48,26 +48,26 @@ public:
 
             uint64_t hash = child->get_hash();
 
-            // Só exploramos o filho se ele NÃO estiver no caminho atual (evita loops infinitos)
+            
             if (path_hashes.find(hash) == path_hashes.end()) {
                 
                 child->set_h(solver_heuristics->calculate(child->get_board()));
-                path_hashes.insert(hash); // Marca no caminho atual
+                path_hashes.insert(hash); 
                 
-                // Mergulha no filho (Recursão)
+                
                 int t = search(child, threshold, path_hashes, nodes_expanded, solver_heuristics, goal_state);
                 
                 if (t == -1) {
-                    // O objetivo foi encontrado lá no fundo! 
-                    // NÃO deletamos este 'child', pois ele faz parte do caminho da vitória.
+                    
+                    
                 } else {
-                    // Beco sem saída. Atualiza o próximo limite e limpa a memória.
+                    
                     if (t < min_exceeded) min_exceeded = t;
-                    path_hashes.erase(hash); // Tira do caminho atual
-                    delete child;            // Destrói o estado da RAM
+                    path_hashes.erase(hash); 
+                    delete child;            
                 }
             } else {
-                // Se gerou um estado que já está no caminho (ex: voltou pro pai)
+                
                 delete child; 
             }
         }
@@ -76,39 +76,39 @@ public:
         return min_exceeded;
     }
 
-    // --- LAÇO PRINCIPAL DO IDA* ---
+    
     void solve(const std::vector<int>& initial_board) override {
         
         IHeuristic* solver_heuristics = heuristic;
 
-        // Cria a raiz
+        
         State* start_state = new State(initial_board);
         start_state->set_h(solver_heuristics->calculate(start_state->get_board()));
 
-        // O limite inicial é a heurística do tabuleiro inicial
+        
         int threshold = start_state->get_f(); 
         
-        // Guarda apenas os hashes do caminho que estamos percorrendo AGORA
+        
         std::unordered_set<uint64_t> path_hashes;
         path_hashes.insert(start_state->get_hash());
 
-        long long total_nodes_expanded = 0; // Contagem global
+        long long total_nodes_expanded = 0; 
         State* goal_state = nullptr;
 
         std::cout << "\nIniciando IDA* Sequencial...\n";
 
-        // Loop do Aprofundamento Iterativo
+        
         while (true) {
-            int nodes_this_iteration = 0; // Contagem específica desta rodada
+            int nodes_this_iteration = 0; 
             
             std::cout << "\n>> [IDA*] Buscando no limite de custo: " << threshold << " movimentos...\n";
             
-            // Inicia o cronômetro da rodada
+            
             auto start_time = std::chrono::high_resolution_clock::now();
             
             int t = search(start_state, threshold, path_hashes, nodes_this_iteration, solver_heuristics, goal_state);
             
-            // Para o cronômetro da rodada
+            
             auto end_time = std::chrono::high_resolution_clock::now();
             auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time).count();
             
@@ -122,7 +122,7 @@ public:
                 std::cout << " Total de nos expandidos (todas as rodadas): " << total_nodes_expanded << "\n";
                 std::cout << "==================================================\n";
                 
-                // Reconstrói e opcionalmente imprime o caminho
+                
                 std::vector<State*> path;
                 State* step = goal_state;
                 while (step != nullptr) {
@@ -131,11 +131,11 @@ public:
                 }
                 std::reverse(path.begin(), path.end());
                 
-                // Faxina de memória final: Deleta a "linha da vitória" (incluindo a raiz)
+                
                 for (State* s : path) {
                     delete s; 
                 }
-                break; // Fim do algoritmo
+                break; 
             }
             if (duration > 1000*60*5) {
                 std::cout << "   ↳ [FALHA] Nenhuma solucao foi encontrada para menos de "<< t-2 <<" movimentos.\n";
@@ -150,10 +150,10 @@ public:
                 break;
             }
             
-            // Imprime os logs de uma rodada que terminou sem achar o objetivo
+            
             std::cout << "   ↳ Concluido em: " << duration << " ms | Nos expandidos nesta rodada: " << nodes_this_iteration << "\n";
             
-            // Se não achou, o novo limite passa a ser o menor custo que excedeu o limite antigo
+            
             threshold = t; 
         }
     }
