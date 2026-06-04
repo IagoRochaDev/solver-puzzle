@@ -25,13 +25,13 @@ public:
                     long long& local_nodes, IHeuristic* solver_heuristics, 
                     State*& goal_state, std::atomic<bool>& global_found, std::mutex& goal_mtx) {
         
-        // Aborta imediatamente se outra thread já resolveu o quebra-cabeça
+        
         if (global_found.load(std::memory_order_relaxed)) return INT_MAX;
 
         int f = current->get_f();
         if (f > threshold) return f;
         
-        // Objetivo alcançado: Sincronização segura via Mutex
+        
         if (current->is_goal()) {
             std::lock_guard<std::mutex> lock(goal_mtx);
             if (!global_found.load()) { 
@@ -43,7 +43,7 @@ public:
 
         int min_exceeded = INT_MAX;
         
-        // Incrementa contador local (Isolado na Stack da thread, sem Lock ou Atomic)
+        
         local_nodes++; 
         
         std::vector<State*> children = current->generate_successors(current);
@@ -56,8 +56,8 @@ public:
 
             uint64_t hash = child->get_hash();
 
-            // OTIMIZAÇÃO DE CICLO: Busca linear em vetor contíguo (Aproveita o Cache L1/L2 da CPU).
-            // Como o caminho do IDA* é raso, varrer este vetor é ordens de magnitude mais rápido que unordered_set.
+            
+            
             bool has_cycle = false;
             for (uint64_t h : path_stack) {
                 if (h == hash) {
@@ -68,16 +68,16 @@ public:
 
             if (!has_cycle) {
                 child->set_h(solver_heuristics->calculate(child->get_board()));
-                path_stack.push_back(hash); // Push na árvore
+                path_stack.push_back(hash); 
                 
                 int t = search_worker(child, threshold, path_stack, local_nodes, solver_heuristics, goal_state, global_found, goal_mtx);
                 
                 if (t == -1) {
-                    // Caminho da vitória encontrado, preserva o nó
+                    
                 } else {
                     if (t < min_exceeded) min_exceeded = t;
-                    path_stack.pop_back(); // Backtracking
-                    delete child;          // Libera memória do beco sem saída
+                    path_stack.pop_back(); 
+                    delete child;          
                 }
             } else {
                 delete child; 
@@ -88,7 +88,7 @@ public:
         return min_exceeded;
     }
 
-    // --- AUXILIAR: RECONSTRÓI O HISTÓRICO DE HASHES PARA CADA THREAD ---
+    
     std::vector<uint64_t> get_ancestor_hashes(State* node) {
         std::vector<uint64_t> hashes;
         State* curr = node;
@@ -100,7 +100,7 @@ public:
         return hashes;
     }
 
-    // --- LAÇO PRINCIPAL PARALELO ---
+    
     void solve(const std::vector<int>& initial_board) override {
         
         IHeuristic* solver_heuristics = heuristic;
@@ -114,16 +114,16 @@ public:
             return;
         }
 
-        // OTIMIZAÇÃO DE HARDWARE: Expansão da Raiz (Saturação de Cores)
-        // Geramos sub-árvores profundas o suficiente para alimentar todas as threads da CPU uniformemente.
+        
+        
         std::vector<State*> frontier;
-        std::unordered_set<State*> frontier_allocated_nodes; // Rastreia alocações para evitar Memory Leaks
+        std::unordered_set<State*> frontier_allocated_nodes; 
         
         frontier.push_back(start_state);
         frontier_allocated_nodes.insert(start_state);
 
         unsigned int num_cores = std::thread::hardware_concurrency();
-        unsigned int target_tasks = num_cores * 4; // Multiplicador para garantir balanceamento de carga dinâmico
+        unsigned int target_tasks = num_cores * 4; 
 
         std::cout << "[Config] Detectados " << num_cores << " nucleos de CPU. Gerando tarefas de busca...\n";
 
@@ -134,7 +134,7 @@ public:
             bool expanded_any = false;
 
             for (State* s : frontier) {
-                // Se o estado atual já é o objetivo, preserva ele na fronteira e não o expande
+                
                 if (s->is_goal()) {
                     next_frontier.push_back(s);
                     goal_found_early = true;
@@ -149,7 +149,7 @@ public:
                         next_frontier.push_back(child);
                         frontier_allocated_nodes.insert(child);
                         
-                        // Se um dos filhos gerados for o objetivo, acende o alerta
+                        
                         if (child->is_goal()) {
                             goal_found_early = true;
                         }
@@ -161,7 +161,7 @@ public:
             
             frontier = next_frontier;
             
-            // Aborta a expansão se não houver mais filhos ou se o objetivo já estiver na fronteira
+            
             if (!expanded_any || goal_found_early) break; 
         }
 
@@ -174,7 +174,7 @@ public:
         std::mutex goal_mtx;
         State* goal_state = nullptr;
 
-        // --- LOOP DO THRESHOLD (VISUALIZAÇÃO COMPLETA) ---
+        
         while (true) {
             global_found.store(false);
             int next_threshold = INT_MAX;
@@ -182,12 +182,12 @@ public:
             
             auto start_time = std::chrono::high_resolution_clock::now();
             
-            // VISUALIZAÇÃO DO LIMITE ATUAL: Essencial para acompanhar o progresso
+            
             std::cout << ">> [IDA*] Buscando no limite de custo: " << threshold << " movimentos..." << std::endl;
             
             std::vector<std::future<int>> futures;
 
-            // Dispara o processamento paralelo em cima da nossa fronteira expandida
+            
             for (State* task_root : frontier) {
                 futures.push_back(std::async(std::launch::async, [&, task_root]() {
                     long long local_nodes = 0;
@@ -201,7 +201,7 @@ public:
                 }));
             }
 
-            // Aguarda a sincronização da barreira de threads da iteração atual
+            
             for (auto& fut : futures) {
                 int t = fut.get();
                 if (t != -1 && t < next_threshold) {
@@ -214,7 +214,7 @@ public:
             
             total_nodes_expanded += nodes_this_iteration.load();
 
-            // Print detalhado de telemetria por iteração
+            
             std::cout << "   ↳ Concluido em: " << duration << " ms | Nos expandidos nesta rodada: " 
                     << nodes_this_iteration.load() << "\n" << std::endl;
 
@@ -225,7 +225,7 @@ public:
                 std::cout << "Custo Real da Solucao: " << goal_state->get_g() << " movimentos\n";
                 std::cout << "Total Global de Nos Expandidos: " << total_nodes_expanded << "\n";
                 
-                // Recupera e organiza o caminho dos estados
+                
                 std::vector<State*> path;
                 State* step = goal_state;
                 while (step != nullptr) {
@@ -236,20 +236,20 @@ public:
                 
                 std::unordered_set<State*> winning_path_set(path.begin(), path.end());
 
-                // Limpeza cirúrgica contra Memory Leaks (Deleta o que não for do caminho vencedor)
+                
                 for (State* s : frontier_allocated_nodes) {
                     if (winning_path_set.find(s) == winning_path_set.end()) {
                         delete s;
                     }
                 }
                 
-                // Deleta os nós do caminho vencedor
+                
                 for (State* s : path) {
                     delete s; 
                 }
                 break;
             }
-            if (/*next_threshold > 60 ||*/ duration > 1000*30/*1000*60*60*3*/) {
+            if ( duration > 1000*30) {
                 std::cout << ">> [FALHA] Nenhuma solucao foi encontrada para menos de "<< next_threshold-2 <<" movimentos.\n";
                 std::cout << "   ↳ Total Global de Nos Expandidos: " << total_nodes_expanded << "\n";
                 std::cout << "   ↳ Total Tempo: " << duration << " ms\n";

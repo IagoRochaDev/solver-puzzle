@@ -13,16 +13,16 @@ private:
     std::vector<uint8_t> table;
     uint64_t table_size;
     std::string filename;
-    int k_tokens; // Quantidade de peças rastreadas (Peças + Espaço Vazio)
+    int k_tokens; 
 
-    // Função matemática para calcular Permutações P(n, r)
+    
     uint64_t P(int n, int r) const {
         uint64_t res = 1;
         for(int i = 0; i < r; ++i) res *= (n - i);
         return res;
     }
 
-    // Versão Otimizada: Mapeamento em tempo constante O(1)
+    
     uint64_t rank_state(const std::array<int8_t, 16>& board) const {
         int8_t pos_map[16];
         for (int i = 0; i < 16; ++i) {
@@ -33,7 +33,7 @@ private:
         uint16_t mask = 0;
         
         for(int i = 0; i < k_tokens; ++i) {
-            // Pega a posição da peça do padrão ou do espaço vazio (0) no último índice
+            
             int pos = (i < k_tokens - 1) ? pos_map[pattern_tiles[i]] : pos_map[0];
             int used_less = __builtin_popcount(mask & ((1 << pos) - 1));
             int count = pos - used_less;
@@ -43,7 +43,7 @@ private:
         return index;
     }
 
-    // Gera o banco de dados via 0-1 BFS a partir do objetivo
+    
     void generate() {
         std::cout << "Gerando PDB (" << filename << ")... Aguarde alguns segundos.\n";
         std::array<int8_t, 16> goal_board;
@@ -82,7 +82,7 @@ private:
                     auto next_board = curr_board;
                     std::swap(next_board[blank_idx], next_board[next_idx]);
 
-                    // Custo é 1 se moveu uma peça do padrão, ou 0 se moveu uma peça "don't care"
+                    
                     int target_tile = curr_board[next_idx]; 
                     bool is_pattern = false;
                     for(int t : pattern_tiles) {
@@ -95,7 +95,7 @@ private:
                     if(next_cost < table[next_rank]) {
                         table[next_rank] = next_cost;
                         if(move_cost == 0) {
-                            q.push_front(next_board); // Otimização 0-1 BFS
+                            q.push_front(next_board); 
                         } else {
                             q.push_back(next_board);
                         }
@@ -104,7 +104,7 @@ private:
             }
         }
 
-        // Salva em disco para nunca mais ter que recalcular
+        
         std::ofstream out(filename, std::ios::binary);
         out.write(reinterpret_cast<char*>(table.data()), table_size);
         std::cout << "Arquivo " << filename << " gravado com sucesso.\n";

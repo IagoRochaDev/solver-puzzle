@@ -11,15 +11,15 @@ private:
     int board_size;
     int side_length;
     
-    // Ponteiros para os PDBs (Alocados dinamicamente APENAS se for o 15-puzzle)
+    
     std::unique_ptr<PDB> pdb1;
     std::unique_ptr<PDB> pdb2;
     std::unique_ptr<PDB> pdb3;
 
-    // Tabela para Manhattan clássico (Usado no 8-puzzle)
+    
     std::vector<std::vector<int>> manhattan_table;
 
-    // Inicializa a tabela de Manhattan se for usar o modo clássico
+    
     void build_manhattan_table() {
         manhattan_table.assign(board_size, std::vector<int>(board_size, 0));
         for (int tile = 1; tile < board_size; ++tile) {
@@ -35,7 +35,7 @@ private:
         }
     }
 
-    // Heurística auxiliar para o modo 3x3
+    
     int calculate_manhattan_linear_conflict(const std::vector<int>& board) const {
         int manhattan = 0;
         int linear_conflict = 0;
@@ -47,7 +47,7 @@ private:
             }
         }
 
-        // Conflito Linear (Linhas)
+        
         for (int row = 0; row < side_length; ++row) {
             for (int col1 = 0; col1 < side_length; ++col1) {
                 int index1 = row * side_length + col1;
@@ -70,7 +70,7 @@ private:
             }
         }
 
-        // Conflito Linear (Colunas)
+        
         for (int col = 0; col < side_length; ++col) {
             for (int row1 = 0; row1 < side_length; ++row1) {
                 int index1 = row1 * side_length + col;
@@ -100,12 +100,12 @@ public:
         side_length = static_cast<int>(std::sqrt(board_size));
         
         if (board_size == 16) {
-            // Se for 4x4, inicializa os gerenciadores de PDB
+            
             pdb1 = std::make_unique<PDB>(std::vector<int>{1, 2, 3, 4, 5, 6}, "pdb_grupo1.bin");
             pdb2 = std::make_unique<PDB>(std::vector<int>{7, 8, 9, 10, 11}, "pdb_grupo2.bin");
             pdb3 = std::make_unique<PDB>(std::vector<int>{12, 13, 14, 15}, "pdb_grupo3.bin");
         } else {
-            // Se for 3x3, usa a estrutura leve de Manhattan
+            
             build_manhattan_table();
         }
     }
