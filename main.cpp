@@ -53,7 +53,7 @@ int main(int argc, char* argv[]) {
         std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     }
 
-    // 2. Escolha do Algoritmo
+    
     if (argc < 3) {
         std::cout << "\nEscolha o Algoritmo:\n";
         std::cout << "1. A* (A-Estrela)\n";
@@ -173,7 +173,7 @@ int main(int argc, char* argv[]) {
             std::vector<int> initial_board;
             int value;
 
-            // Extrai os inteiros separados por espaço da linha atual
+            
             while (ss >> value) {
                 initial_board.push_back(value);
             }
