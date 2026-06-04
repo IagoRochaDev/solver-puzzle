@@ -3,8 +3,9 @@
 #include <vector>
 #include <cmath>
 #include <cstdlib>
+#include "IHeuristic.hpp"
 
-class Heuristics {
+class Heuristics_1 : public IHeuristic {
 private:
     std::vector<std::vector<int>> manhattan_table;
     int side_length;
@@ -29,11 +30,11 @@ private:
     }
 
 public:
-    Heuristics(int board_size) {
+    Heuristics_1(int board_size = 9) {
         precompute_table(board_size);
     }
 
-    int calculate(const std::vector<int>& board) const {
+    int calculate(const std::vector<int>& board) const override{
         int total_distance = 0;
         for (int i = 0; i < board.size(); ++i) {
             int value = board[i];
