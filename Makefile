@@ -7,39 +7,24 @@ CXXFLAGS = -std=c++17 -O3 -Wall -pthread
 # Nome do executável final
 TARGET = puzzle_solver
 
-BIN = *.bin
-
-# Arquivos fonte
+# Arquivo fonte principal
 SRC = main.cpp
 
-# Arquivos de cabeçalho (dependências do projeto)
-DEPS = State.hpp \
-       algorithms/IAlgorithm.hpp \
-       algorithms/AStar.hpp \
-       algorithms/IDAStar.hpp \
-       algorithms/ParallelIDAStar.hpp \
-       heuristics/IHeuristic.hpp \
-       heuristics/Heuristics_1.hpp \
-       heuristics/Heuristics_2.hpp \
-       heuristics/Heuristics_3.hpp \
-       heuristics/Heuristics_4.hpp \
-       heuristics/PatternDatabase.hpp
-
-# Declara 'all', 'clean' e 'run' como alvos falsos (não são arquivos físicos)
+# Declara os alvos que não geram arquivos
 .PHONY: all clean run
 
-# Regra padrão: apenas compila
+# Regra padrão: compila o executável
 all: $(TARGET)
 
-# Compila o executável principal
-$(TARGET): $(SRC) $(DEPS)
+# Compilação limpa sem precisar listar as dependências manualmente
+# (O GCC resolve os #includes automaticamente)
+$(TARGET): $(SRC)
 	$(CXX) $(CXXFLAGS) $(SRC) -o $(TARGET)
 
-# REGRA NOVA: Executa o programa compilado
-# O sinal '@' esconde o comando do terminal, deixando a saída limpa
+# Regra auxiliar para rodar via Make (usando a variável ARGS opcional)
 run: $(TARGET)
 	@./$(TARGET) $(ARGS)
 
-# Regra para limpar os arquivos binários gerados
+# Limpeza dos binários gerados
 clean:
-	rm -f $(TARGET) $(BIN)
+	rm -f $(TARGET) *.bin
