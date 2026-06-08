@@ -108,8 +108,6 @@ public:
         for (auto& pair : closed_set) {
             delete pair.second;
         }
-        print_stats();
-        print_solution();
     }
 
     void print_stats() const override {
