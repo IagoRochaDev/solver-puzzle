@@ -115,12 +115,14 @@ public:
     void print_stats() const override {
         std::cout << "\n==================================================\n";
         if (goal_found) {
-            std::cout << " Objetivo encontrado com sucesso!\n";
-            std::cout << " Custo total (movimentos): " << final_cost << "\n";
+            std::cout << "           SOLUCAO ENCONTRADA COM SUCESSO!        \n";
+            std::cout << "==================================================\n";
+            std::cout << " Custo da Solucao: " << final_cost << " movimentos\n";
         } else {
-            std::cout << " [FALHA] O espaco de busca foi esgotado e nenhuma solucao foi encontrada.\n";
+            std::cout << " [FALHA] O espaco de busca foi esgotado sem solucao.\n";
+            std::cout << "==================================================\n";
         }
-        std::cout << " Total de nos expandidos: " << total_nodes_expanded << "\n";
+        std::cout << " Total de Nos Expandidos: " << total_nodes_expanded << "\n";
         std::cout << " Tempo total de execucao: " << total_duration_ms << " ms\n";
         std::cout << "==================================================\n";
     }

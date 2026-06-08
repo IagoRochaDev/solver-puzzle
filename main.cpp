@@ -83,6 +83,8 @@ int main(int argc, char* argv[]) {
             std::cout << "[STATUS] Tabuleiro Impossivel! Abortando resolucao matematicamente.\n";
         } else {
             solver->solve(initial_board);
+            solver->print_stats();
+            solver->print_solution();
         }
         std::cout << "==================================================\n\n";
     }

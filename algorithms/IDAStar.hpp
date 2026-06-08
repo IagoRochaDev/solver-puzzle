@@ -152,16 +152,20 @@ public:
     void print_stats() const override {
         std::cout << "\n==================================================\n";
         if (goal_found) {
-            std::cout << " Objetivo encontrado com sucesso!\n";
-            std::cout << " Custo total (movimentos): " << final_cost << "\n";
+            std::cout << "           SOLUCAO ENCONTRADA COM SUCESSO!        \n";
+            std::cout << "==================================================\n";
+            std::cout << " Custo da Solucao: " << final_cost << " movimentos\n";
         } else if (timeout_occurred) {
-            std::cout << " [FALHA] Execucao abortada por estourar o tempo limite (5 minutos).\n";
+            std::cout << " [FALHA] Execucao abortada por estourar o tempo limite.\n";
+            std::cout << "==================================================\n";
         } else if (exhausted_search) {
-            std::cout << " [FALHA] O espaco de busca foi esgotado e nenhuma solucao foi encontrada.\n";
+            std::cout << " [FALHA] O espaco de busca foi esgotado sem solucao.\n";
+            std::cout << "==================================================\n";
         } else {
-            std::cout << " [STATUS] Processamento nao iniciado ou finalizado sem resposta.\n";
+            std::cout << " [STATUS] Processamento finalizado sem resposta.\n";
+            std::cout << "==================================================\n";
         }
-        std::cout << " Total de nos expandidos (todas as rodadas): " << total_nodes_expanded << "\n";
+        std::cout << " Total de Nos Expandidos: " << total_nodes_expanded << "\n";
         std::cout << "==================================================\n";
     }
 

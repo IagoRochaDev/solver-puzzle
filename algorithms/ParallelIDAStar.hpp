@@ -252,8 +252,7 @@ public:
             
             threshold = next_threshold; 
         }
-        print_stats();
-        print_solution();
+        
     }
 
     void print_stats() const override {
@@ -261,18 +260,18 @@ public:
         if (goal_found) {
             std::cout << "           SOLUCAO ENCONTRADA COM SUCESSO!        \n";
             std::cout << "==================================================\n";
-            std::cout << " Custo Real da Solucao: " << final_cost << " movimentos\n";
+            std::cout << " Custo da Solucao: " << final_cost << " movimentos\n";
         } else if (timeout_occurred) {
-            std::cout << " [FALHA] Execucao abortada por estourar o tempo limite paralelo (30 segundos).\n";
+            std::cout << " [FALHA] Execucao abortada por estourar o tempo limite.\n";
             std::cout << "==================================================\n";
         } else if (exhausted_search) {
-            std::cout << " [FALHA] O espaco de busca foi completamente esgotado sem solucao.\n";
+            std::cout << " [FALHA] O espaco de busca foi esgotado sem solucao.\n";
             std::cout << "==================================================\n";
         } else {
             std::cout << " [STATUS] Processamento finalizado sem resposta.\n";
             std::cout << "==================================================\n";
         }
-        std::cout << " Total Global de Nos Expandidos: " << total_nodes_expanded << "\n";
+        std::cout << " Total de Nos Expandidos: " << total_nodes_expanded << "\n";
         std::cout << "==================================================\n";
     }
 
