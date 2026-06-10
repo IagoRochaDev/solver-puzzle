@@ -1,0 +1,3574 @@
+g++ -std=c++17 -O3 -Wall -pthread main.cpp -o puzzle_solver
+=== BEM-VINDO AO SOLVER DO PUZZLE ===
+Configuracao: Heuristica [Manhattan] | Algoritmo [IDA*]
+Aguardando entrada de dados...
+
+==================================================
+ PROCESSANDO INSTANCIA #1
+==================================================
+Tabuleiro Inicial: 2 6 9 13 14 0 5 12 1 15 8 10 11 4 7 3 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 27
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 281
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2290
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 16510
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 33 ms | Nos expandidos nesta rodada: 111489
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 218 ms | Nos expandidos nesta rodada: 731029
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 1418 ms | Nos expandidos nesta rodada: 4584928
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 8585 ms | Nos expandidos nesta rodada: 27993514
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 51667 ms | Nos expandidos nesta rodada: 166883200
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 27798 ms | Nos expandidos nesta rodada: 89536215
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 58 movimentos
+ Total de Nos Expandidos: 289859483
+==================================================
+Tempo nesta instancia: 89727.84 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #2
+==================================================
+Tabuleiro Inicial: 15 14 12 7 11 6 4 0 5 3 9 8 2 10 13 1 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 19
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 109
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 652
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 4035
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 24393
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 40 ms | Nos expandidos nesta rodada: 138278
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 228 ms | Nos expandidos nesta rodada: 763788
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 1268 ms | Nos expandidos nesta rodada: 4190221
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 6931 ms | Nos expandidos nesta rodada: 22912136
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 37920 ms | Nos expandidos nesta rodada: 124981312
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 207633 ms | Nos expandidos nesta rodada: 679857461
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 162278 ms | Nos expandidos nesta rodada: 528603025
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 60 movimentos
+ Total de Nos Expandidos: 1361475429
+==================================================
+Tempo nesta instancia: 416310.43 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #3
+==================================================
+Tabuleiro Inicial: 10 6 13 2 14 12 5 7 9 8 11 0 1 4 3 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 27
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 155
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 872
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5301
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 31323
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 54 ms | Nos expandidos nesta rodada: 185465
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 334 ms | Nos expandidos nesta rodada: 1111011
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 1996 ms | Nos expandidos nesta rodada: 6580880
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 11790 ms | Nos expandidos nesta rodada: 38593734
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 11742 ms | Nos expandidos nesta rodada: 38374755
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 84883524
+==================================================
+Tempo nesta instancia: 25929.84 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #4
+==================================================
+Tabuleiro Inicial: 7 14 1 9 4 6 8 10 3 2 5 11 12 0 13 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 4
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 25
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 181
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1158
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7980
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 56698
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 118 ms | Nos expandidos nesta rodada: 394101
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 803 ms | Nos expandidos nesta rodada: 2644015
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 5267 ms | Nos expandidos nesta rodada: 17102283
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 33175 ms | Nos expandidos nesta rodada: 107023867
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 44628 ms | Nos expandidos nesta rodada: 142721005
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 58 movimentos
+ Total de Nos Expandidos: 269951317
+==================================================
+Tempo nesta instancia: 84013.80 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #5
+==================================================
+Tabuleiro Inicial: 1 7 10 11 15 12 9 3 8 2 4 13 6 5 0 14 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 147
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3182
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 34813
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 87 ms | Nos expandidos nesta rodada: 275415
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 526 ms | Nos expandidos nesta rodada: 1655478
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 1969035
+==================================================
+Tempo nesta instancia: 625.41 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #6
+==================================================
+Tabuleiro Inicial: 2 8 13 4 11 6 3 5 12 0 10 14 7 9 1 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 18
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 124
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 840
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5364
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 34275
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 66 ms | Nos expandidos nesta rodada: 216169
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 413 ms | Nos expandidos nesta rodada: 1302860
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2371 ms | Nos expandidos nesta rodada: 7623928
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 966 ms | Nos expandidos nesta rodada: 3080692
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 12264270
+==================================================
+Tempo nesta instancia: 3830.94 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #7
+==================================================
+Tabuleiro Inicial: 4 7 6 9 0 1 15 2 3 5 14 8 11 10 12 13 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 108
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1021
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 6935
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 14 ms | Nos expandidos nesta rodada: 46842
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 88 ms | Nos expandidos nesta rodada: 290788
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 521 ms | Nos expandidos nesta rodada: 1687766
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 805 ms | Nos expandidos nesta rodada: 2597326
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 4630786
+==================================================
+Tempo nesta instancia: 1433.18 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #8
+==================================================
+Tabuleiro Inicial: 8 1 5 6 14 9 3 0 12 10 2 7 13 15 4 11 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 32 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 6
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 84
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1007
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7381
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 14 ms | Nos expandidos nesta rodada: 45324
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 80 ms | Nos expandidos nesta rodada: 261481
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 437 ms | Nos expandidos nesta rodada: 1407887
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 1237 ms | Nos expandidos nesta rodada: 3950719
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 5673889
+==================================================
+Tempo nesta instancia: 1773.05 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #9
+==================================================
+Tabuleiro Inicial: 4 14 10 3 9 8 0 12 1 6 5 13 2 11 15 7 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 22
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 124
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 732
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 4195
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 24143
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 39 ms | Nos expandidos nesta rodada: 132635
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 219 ms | Nos expandidos nesta rodada: 715733
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 1171 ms | Nos expandidos nesta rodada: 3787993
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 6151 ms | Nos expandidos nesta rodada: 19683010
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 888 ms | Nos expandidos nesta rodada: 2844999
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 27193586
+==================================================
+Tempo nesta instancia: 8479.98 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #10
+==================================================
+Tabuleiro Inicial: 6 13 15 7 3 0 5 1 9 4 11 2 12 14 10 8 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 47
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 202
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1171
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7582
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 14 ms | Nos expandidos nesta rodada: 47313
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 87 ms | Nos expandidos nesta rodada: 288296
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 516 ms | Nos expandidos nesta rodada: 1698714
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 689 ms | Nos expandidos nesta rodada: 2249196
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 4292521
+==================================================
+Tempo nesta instancia: 1309.51 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #11
+==================================================
+Tabuleiro Inicial: 15 9 5 12 0 7 13 11 1 4 14 10 2 8 3 6 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 6
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 168
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3376
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 12 ms | Nos expandidos nesta rodada: 40643
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 128 ms | Nos expandidos nesta rodada: 417508
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 1154 ms | Nos expandidos nesta rodada: 3723246
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 1241 ms | Nos expandidos nesta rodada: 3916444
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 8101391
+==================================================
+Tempo nesta instancia: 2537.20 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #12
+==================================================
+Tabuleiro Inicial: 1 11 0 9 10 15 14 2 6 5 4 12 13 8 7 3 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 4
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 201
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1839
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 15679
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 35 ms | Nos expandidos nesta rodada: 114658
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 182 ms | Nos expandidos nesta rodada: 572962
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 705343
+==================================================
+Tempo nesta instancia: 223.71 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #13
+==================================================
+Tabuleiro Inicial: 1 15 12 5 14 9 3 10 8 6 13 11 0 7 4 2 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 61
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 918
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 10008
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 26 ms | Nos expandidos nesta rodada: 88288
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 208 ms | Nos expandidos nesta rodada: 677290
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 1514 ms | Nos expandidos nesta rodada: 4823254
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 2503 ms | Nos expandidos nesta rodada: 7845305
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 13445125
+==================================================
+Tempo nesta instancia: 4256.73 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #14
+==================================================
+Tabuleiro Inicial: 8 6 7 15 13 5 1 0 3 12 10 14 2 4 9 11 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 12
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 308
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3579
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 31904
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 76 ms | Nos expandidos nesta rodada: 252059
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 565 ms | Nos expandidos nesta rodada: 1856088
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 4018 ms | Nos expandidos nesta rodada: 13016560
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 3090 ms | Nos expandidos nesta rodada: 9909824
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 25070336
+==================================================
+Tempo nesta instancia: 7762.45 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #15
+==================================================
+Tabuleiro Inicial: 7 14 6 12 15 4 5 13 10 0 8 3 1 9 11 2 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 7
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 184
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1721
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 14885
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 35 ms | Nos expandidos nesta rodada: 119446
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 268 ms | Nos expandidos nesta rodada: 890906
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 1932 ms | Nos expandidos nesta rodada: 6269693
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 12915 ms | Nos expandidos nesta rodada: 41943818
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 78652 ms | Nos expandidos nesta rodada: 253119672
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 302360332
+==================================================
+Tempo nesta instancia: 93809.75 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #16
+==================================================
+Tabuleiro Inicial: 7 6 0 10 14 15 11 12 13 4 9 8 1 3 5 2 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 29
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 299
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2755
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 21479
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 47 ms | Nos expandidos nesta rodada: 156058
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 325 ms | Nos expandidos nesta rodada: 1066930
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 2149 ms | Nos expandidos nesta rodada: 6973441
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 13743 ms | Nos expandidos nesta rodada: 44194871
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 11479 ms | Nos expandidos nesta rodada: 36572812
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 58 movimentos
+ Total de Nos Expandidos: 88988676
+==================================================
+Tempo nesta instancia: 27752.98 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #17
+==================================================
+Tabuleiro Inicial: 9 10 3 6 14 1 15 2 11 8 0 5 12 7 13 4 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 18
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 234
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2475
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 21204
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 48 ms | Nos expandidos nesta rodada: 157112
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 331 ms | Nos expandidos nesta rodada: 1064268
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 844 ms | Nos expandidos nesta rodada: 2708279
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 3953590
+==================================================
+Tempo nesta instancia: 1231.32 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #18
+==================================================
+Tabuleiro Inicial: 1 9 12 4 5 14 0 10 7 3 13 2 15 11 6 8 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 5
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 156
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1478
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 10349
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 20 ms | Nos expandidos nesta rodada: 65844
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 126 ms | Nos expandidos nesta rodada: 394279
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 711 ms | Nos expandidos nesta rodada: 2227849
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3912 ms | Nos expandidos nesta rodada: 12133810
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 16898 ms | Nos expandidos nesta rodada: 52108503
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 66942273
+==================================================
+Tempo nesta instancia: 21673.37 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #19
+==================================================
+Tabuleiro Inicial: 13 10 14 5 11 4 1 7 8 6 0 3 9 12 15 2 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 49
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 720
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 6650
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 52122
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 117 ms | Nos expandidos nesta rodada: 394073
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 861 ms | Nos expandidos nesta rodada: 2835599
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 5987 ms | Nos expandidos nesta rodada: 19434769
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 26941 ms | Nos expandidos nesta rodada: 86970531
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 109694516
+==================================================
+Tempo nesta instancia: 33925.66 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #20
+==================================================
+Tabuleiro Inicial: 4 9 0 6 7 15 5 1 8 13 2 14 10 3 11 12 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 141
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1306
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 11601
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 27 ms | Nos expandidos nesta rodada: 91193
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 202 ms | Nos expandidos nesta rodada: 667221
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 1404 ms | Nos expandidos nesta rodada: 4583296
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 5226 ms | Nos expandidos nesta rodada: 16938832
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 22293593
+==================================================
+Tempo nesta instancia: 6864.82 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #21
+==================================================
+Tabuleiro Inicial: 9 2 6 10 14 1 15 7 4 11 13 5 12 0 3 8 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 96
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 962
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7005
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 50139
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 105 ms | Nos expandidos nesta rodada: 347140
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 701 ms | Nos expandidos nesta rodada: 2282866
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 985 ms | Nos expandidos nesta rodada: 3188369
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 5876579
+==================================================
+Tempo nesta instancia: 1809.62 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #22
+==================================================
+Tabuleiro Inicial: 1 9 5 12 14 0 6 3 15 13 4 2 8 10 11 7 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 18
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 231
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2475
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 24963
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 63 ms | Nos expandidos nesta rodada: 204509
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 88 ms | Nos expandidos nesta rodada: 272101
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 504297
+==================================================
+Tempo nesta instancia: 160.54 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #23
+==================================================
+Tabuleiro Inicial: 14 2 7 1 8 10 9 5 13 12 11 6 15 0 3 4 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 32 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 26
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 134
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 709
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3843
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 19926
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 29 ms | Nos expandidos nesta rodada: 98933
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 150 ms | Nos expandidos nesta rodada: 497424
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 753 ms | Nos expandidos nesta rodada: 2476843
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 3788 ms | Nos expandidos nesta rodada: 12335493
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 7472 ms | Nos expandidos nesta rodada: 24219028
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 39652362
+==================================================
+Tempo nesta instancia: 12201.73 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #24
+==================================================
+Tabuleiro Inicial: 7 11 8 10 3 12 0 6 15 1 13 4 9 5 14 2 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 337
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3984
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 12 ms | Nos expandidos nesta rodada: 38125
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 96 ms | Nos expandidos nesta rodada: 303343
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 684 ms | Nos expandidos nesta rodada: 2139744
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 4492 ms | Nos expandidos nesta rodada: 13927522
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 8742 ms | Nos expandidos nesta rodada: 27325486
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 43738541
+==================================================
+Tempo nesta instancia: 14029.49 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #25
+==================================================
+Tabuleiro Inicial: 3 7 11 10 5 1 0 12 15 2 13 8 4 9 6 14 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 88
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 557
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3221
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 19696
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 34 ms | Nos expandidos nesta rodada: 111644
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 195 ms | Nos expandidos nesta rodada: 617865
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 1059 ms | Nos expandidos nesta rodada: 3339037
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 3147 ms | Nos expandidos nesta rodada: 9939934
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 14032042
+==================================================
+Tempo nesta instancia: 4443.45 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #26
+==================================================
+Tabuleiro Inicial: 10 1 8 7 13 12 2 3 9 6 5 4 14 11 0 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 27 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 4
+>> [IDA*] Buscando no limite de custo: 29 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 49
+>> [IDA*] Buscando no limite de custo: 31 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 735
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 4130
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 22335
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 36 ms | Nos expandidos nesta rodada: 116028
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 98 ms | Nos expandidos nesta rodada: 305043
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 39 movimentos
+ Total de Nos Expandidos: 448324
+==================================================
+Tempo nesta instancia: 143.00 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #27
+==================================================
+Tabuleiro Inicial: 2 15 14 9 5 7 0 6 13 1 3 10 12 8 4 11 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 39
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 275
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2387
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 18417
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 42 ms | Nos expandidos nesta rodada: 139620
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 49 ms | Nos expandidos nesta rodada: 163498
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 324236
+==================================================
+Tempo nesta instancia: 98.16 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #28
+==================================================
+Tabuleiro Inicial: 4 15 3 2 13 9 0 8 12 7 6 1 5 10 11 14 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 31 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 28
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 113
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 463
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2208
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9189
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 12 ms | Nos expandidos nesta rodada: 41732
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 57 ms | Nos expandidos nesta rodada: 188426
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 268 ms | Nos expandidos nesta rodada: 866600
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 1233 ms | Nos expandidos nesta rodada: 4040806
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 5875 ms | Nos expandidos nesta rodada: 19024847
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 28005 ms | Nos expandidos nesta rodada: 90163317
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 134194 ms | Nos expandidos nesta rodada: 429467162
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 30543 ms | Nos expandidos nesta rodada: 97811620
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 641616511
+==================================================
+Tempo nesta instancia: 200193.89 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #29
+==================================================
+Tabuleiro Inicial: 10 4 3 14 13 7 0 8 2 12 11 6 9 15 5 1 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 32
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 116
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 516
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2537
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 12043
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 18 ms | Nos expandidos nesta rodada: 61281
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 98 ms | Nos expandidos nesta rodada: 326119
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 541 ms | Nos expandidos nesta rodada: 1787484
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 3058 ms | Nos expandidos nesta rodada: 9979340
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 17316 ms | Nos expandidos nesta rodada: 56071121
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 72451 ms | Nos expandidos nesta rodada: 233767302
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 302007893
+==================================================
+Tempo nesta instancia: 93490.02 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #30
+==================================================
+Tabuleiro Inicial: 5 0 7 2 12 9 6 11 8 13 3 4 10 1 14 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 31 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 89
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 501
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3714
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 24222
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 43 ms | Nos expandidos nesta rodada: 139667
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 170 ms | Nos expandidos nesta rodada: 545495
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 43 movimentos
+ Total de Nos Expandidos: 713689
+==================================================
+Tempo nesta instancia: 222.06 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #31
+==================================================
+Tabuleiro Inicial: 8 3 4 2 11 1 13 6 10 14 0 5 9 15 7 12 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 30 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 22
+>> [IDA*] Buscando no limite de custo: 32 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 162
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 969
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5328
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 27711
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 42 ms | Nos expandidos nesta rodada: 139583
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 211 ms | Nos expandidos nesta rodada: 683660
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 1026 ms | Nos expandidos nesta rodada: 3290841
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 4919 ms | Nos expandidos nesta rodada: 15654685
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 5937 ms | Nos expandidos nesta rodada: 18789787
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 48 movimentos
+ Total de Nos Expandidos: 38592748
+==================================================
+Tempo nesta instancia: 12148.74 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #32
+==================================================
+Tabuleiro Inicial: 14 7 5 12 0 4 9 11 13 2 8 3 1 10 6 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 144
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1215
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8419
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 53817
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 97 ms | Nos expandidos nesta rodada: 322754
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 572 ms | Nos expandidos nesta rodada: 1879171
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 3263 ms | Nos expandidos nesta rodada: 10604837
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 705 ms | Nos expandidos nesta rodada: 2247680
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 15118039
+==================================================
+Tempo nesta instancia: 4657.90 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #33
+==================================================
+Tabuleiro Inicial: 2 8 14 10 9 4 12 11 3 6 1 0 15 5 13 7 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 111
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1433
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 12219
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 27 ms | Nos expandidos nesta rodada: 91313
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 194 ms | Nos expandidos nesta rodada: 625686
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 1243 ms | Nos expandidos nesta rodada: 3970808
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 1811 ms | Nos expandidos nesta rodada: 5714349
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 10415919
+==================================================
+Tempo nesta instancia: 3281.81 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #34
+==================================================
+Tabuleiro Inicial: 15 2 10 8 5 11 6 9 4 12 7 1 3 13 0 14 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 32
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 200
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1131
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 6002
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 33086
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 58 ms | Nos expandidos nesta rodada: 192821
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 356 ms | Nos expandidos nesta rodada: 1150057
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 2143 ms | Nos expandidos nesta rodada: 6966042
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 13081 ms | Nos expandidos nesta rodada: 42115753
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 9975 ms | Nos expandidos nesta rodada: 31962376
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 82427502
+==================================================
+Tempo nesta instancia: 25628.49 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #35
+==================================================
+Tabuleiro Inicial: 5 15 0 7 4 9 13 3 12 11 8 1 6 14 2 10 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 36
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 456
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3035
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 18327
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 34 ms | Nos expandidos nesta rodada: 114631
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 217 ms | Nos expandidos nesta rodada: 716246
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 1362 ms | Nos expandidos nesta rodada: 4483550
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 8467 ms | Nos expandidos nesta rodada: 27622048
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 15658 ms | Nos expandidos nesta rodada: 51085517
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 84043846
+==================================================
+Tempo nesta instancia: 25747.62 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #36
+==================================================
+Tabuleiro Inicial: 13 6 4 0 10 5 11 8 1 2 12 15 7 3 14 9 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 29 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 31 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 5
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 53
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 406
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2377
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 13326
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 21 ms | Nos expandidos nesta rodada: 71438
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 76 ms | Nos expandidos nesta rodada: 246601
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 43 movimentos
+ Total de Nos Expandidos: 334208
+==================================================
+Tempo nesta instancia: 103.32 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #37
+==================================================
+Tabuleiro Inicial: 3 4 9 1 2 13 10 8 7 12 0 6 15 5 11 14 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 44
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 303
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2299
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 14299
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 26 ms | Nos expandidos nesta rodada: 85097
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 153 ms | Nos expandidos nesta rodada: 486281
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 843 ms | Nos expandidos nesta rodada: 2655963
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 4484 ms | Nos expandidos nesta rodada: 14060265
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2615 ms | Nos expandidos nesta rodada: 8200538
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 25505089
+==================================================
+Tempo nesta instancia: 8129.63 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #38
+==================================================
+Tabuleiro Inicial: 4 1 15 12 7 9 11 14 8 6 0 3 10 2 13 5 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 11
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 77
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 470
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3136
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 19293
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 34 ms | Nos expandidos nesta rodada: 118985
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 215 ms | Nos expandidos nesta rodada: 720901
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 1314 ms | Nos expandidos nesta rodada: 4352508
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 7953 ms | Nos expandidos nesta rodada: 26059371
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 44290 ms | Nos expandidos nesta rodada: 143937339
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 175212091
+==================================================
+Tempo nesta instancia: 53816.43 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #39
+==================================================
+Tabuleiro Inicial: 8 12 5 2 15 13 0 7 9 6 4 3 11 14 1 10 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 16
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 138
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1106
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8304
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 19 ms | Nos expandidos nesta rodada: 64962
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 145 ms | Nos expandidos nesta rodada: 483701
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 1048 ms | Nos expandidos nesta rodada: 3434562
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 7160 ms | Nos expandidos nesta rodada: 23162884
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 14697 ms | Nos expandidos nesta rodada: 46996779
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 74152452
+==================================================
+Tempo nesta instancia: 23074.33 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #40
+==================================================
+Tabuleiro Inicial: 4 8 3 13 10 15 9 7 12 11 6 14 5 0 2 1 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 4
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 192
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1447
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9124
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 56236
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 102 ms | Nos expandidos nesta rodada: 346920
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 636 ms | Nos expandidos nesta rodada: 2111896
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 3872 ms | Nos expandidos nesta rodada: 12907083
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 23837 ms | Nos expandidos nesta rodada: 78807142
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 145837 ms | Nos expandidos nesta rodada: 479382563
+>> [IDA*] Buscando no limite de custo: 62 movimentos...
+   ↳ Concluido em: 399375 ms | Nos expandidos nesta rodada: 1359695410
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 62 movimentos
+ Total de Nos Expandidos: 1933318017
+==================================================
+Tempo nesta instancia: 573681.45 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #41
+==================================================
+Tabuleiro Inicial: 9 2 15 3 1 14 0 8 4 7 13 12 10 11 5 6 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 31 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 84
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 567
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3596
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 19749
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 32 ms | Nos expandidos nesta rodada: 105481
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 176 ms | Nos expandidos nesta rodada: 547956
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 868 ms | Nos expandidos nesta rodada: 2780192
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2636 ms | Nos expandidos nesta rodada: 8415294
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 47 movimentos
+ Total de Nos Expandidos: 11872922
+==================================================
+Tempo nesta instancia: 3721.80 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #42
+==================================================
+Tabuleiro Inicial: 5 15 3 10 0 4 2 1 7 9 11 6 13 14 8 12 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 29 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 4
+>> [IDA*] Buscando no limite de custo: 31 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 37
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 241
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1484
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 9716
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 55932
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 95 ms | Nos expandidos nesta rodada: 302535
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 499 ms | Nos expandidos nesta rodada: 1569445
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 767 ms | Nos expandidos nesta rodada: 2407743
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 45 movimentos
+ Total de Nos Expandidos: 4347137
+==================================================
+Tempo nesta instancia: 1382.63 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #43
+==================================================
+Tabuleiro Inicial: 4 10 11 14 5 15 1 2 9 0 7 6 3 12 8 13 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 24
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 192
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1667
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 11966
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 23 ms | Nos expandidos nesta rodada: 79250
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 149 ms | Nos expandidos nesta rodada: 491187
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 887 ms | Nos expandidos nesta rodada: 2900486
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 5130 ms | Nos expandidos nesta rodada: 16636364
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 29056 ms | Nos expandidos nesta rodada: 93463948
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 1482 ms | Nos expandidos nesta rodada: 4681759
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 118266843
+==================================================
+Tempo nesta instancia: 36734.95 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #44
+==================================================
+Tabuleiro Inicial: 9 2 3 15 5 0 6 13 12 10 1 14 11 4 8 7 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 29
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 159
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 960
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5554
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 29432
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 49 ms | Nos expandidos nesta rodada: 165242
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 273 ms | Nos expandidos nesta rodada: 903626
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 1503 ms | Nos expandidos nesta rodada: 4907376
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 8168 ms | Nos expandidos nesta rodada: 26623774
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 19755 ms | Nos expandidos nesta rodada: 63983211
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 96619363
+==================================================
+Tempo nesta instancia: 29761.95 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #45
+==================================================
+Tabuleiro Inicial: 11 4 6 1 3 14 8 15 10 12 7 13 2 9 5 0 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 31
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 233
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1538
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 10272
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 20 ms | Nos expandidos nesta rodada: 67012
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 129 ms | Nos expandidos nesta rodada: 423966
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 794 ms | Nos expandidos nesta rodada: 2584589
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 11 ms | Nos expandidos nesta rodada: 37581
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 3125222
+==================================================
+Tempo nesta instancia: 959.71 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #46
+==================================================
+Tabuleiro Inicial: 8 11 5 2 10 4 0 7 12 3 9 1 14 13 6 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 70
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 589
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3984
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 26506
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 51 ms | Nos expandidos nesta rodada: 169360
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 313 ms | Nos expandidos nesta rodada: 1022929
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 1848 ms | Nos expandidos nesta rodada: 5974945
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 10504 ms | Nos expandidos nesta rodada: 33868729
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 24991 ms | Nos expandidos nesta rodada: 80396052
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 121463164
+==================================================
+Tempo nesta instancia: 37720.27 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #47
+==================================================
+Tabuleiro Inicial: 7 3 5 14 0 8 9 6 2 11 12 1 15 10 13 4 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 43
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 415
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2685
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 17375
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 32 ms | Nos expandidos nesta rodada: 107606
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 193 ms | Nos expandidos nesta rodada: 642263
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 1141 ms | Nos expandidos nesta rodada: 3756655
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 6593 ms | Nos expandidos nesta rodada: 21564180
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 10799 ms | Nos expandidos nesta rodada: 35023906
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 61115131
+==================================================
+Tempo nesta instancia: 18765.66 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #48
+==================================================
+Tabuleiro Inicial: 2 14 12 13 0 6 10 15 1 9 8 3 5 4 7 11 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 5
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 134
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1032
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7418
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 14 ms | Nos expandidos nesta rodada: 49524
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 95 ms | Nos expandidos nesta rodada: 309127
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 567 ms | Nos expandidos nesta rodada: 1844308
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 3334 ms | Nos expandidos nesta rodada: 10718712
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 14935 ms | Nos expandidos nesta rodada: 47580822
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 60511082
+==================================================
+Tempo nesta instancia: 18950.49 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #49
+==================================================
+Tabuleiro Inicial: 10 11 0 2 12 7 3 8 14 6 13 9 5 4 15 1 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 19
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 95
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 470
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2314
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 11585
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 58052
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 89 ms | Nos expandidos nesta rodada: 301659
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 477 ms | Nos expandidos nesta rodada: 1593333
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 2589 ms | Nos expandidos nesta rodada: 8569052
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 14210 ms | Nos expandidos nesta rodada: 46600238
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 53652 ms | Nos expandidos nesta rodada: 174730967
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 231867784
+==================================================
+Tempo nesta instancia: 71040.69 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #50
+==================================================
+Tabuleiro Inicial: 5 1 0 9 8 2 3 15 4 10 11 6 12 13 7 14 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 32 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 6
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 36
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 139
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 690
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3657
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 19339
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 31 ms | Nos expandidos nesta rodada: 103667
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 185 ms | Nos expandidos nesta rodada: 556804
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 934 ms | Nos expandidos nesta rodada: 2995353
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 4977 ms | Nos expandidos nesta rodada: 15830984
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 19510675
+==================================================
+Tempo nesta instancia: 6137.57 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #51
+==================================================
+Tabuleiro Inicial: 7 10 0 14 1 4 3 13 8 11 15 2 12 6 5 9 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 13
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 176
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1647
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 15855
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 41 ms | Nos expandidos nesta rodada: 137140
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 345 ms | Nos expandidos nesta rodada: 1134384
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 264 ms | Nos expandidos nesta rodada: 865264
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 2154479
+==================================================
+Tempo nesta instancia: 657.33 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #52
+==================================================
+Tabuleiro Inicial: 15 2 10 4 3 6 12 0 11 9 14 13 7 5 8 1 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 53
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 306
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2719
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 23115
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 59 ms | Nos expandidos nesta rodada: 192507
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 469 ms | Nos expandidos nesta rodada: 1497085
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 3369 ms | Nos expandidos nesta rodada: 10666201
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 22413 ms | Nos expandidos nesta rodada: 70668746
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 18196 ms | Nos expandidos nesta rodada: 56956047
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 140006782
+==================================================
+Tempo nesta instancia: 44516.33 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #53
+==================================================
+Tabuleiro Inicial: 5 7 8 9 12 10 15 4 14 0 6 3 13 2 1 11 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 26
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 189
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1310
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8649
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 55987
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 104 ms | Nos expandidos nesta rodada: 346920
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 639 ms | Nos expandidos nesta rodada: 2091019
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 3763 ms | Nos expandidos nesta rodada: 12209026
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 11333 ms | Nos expandidos nesta rodada: 36346141
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 51059267
+==================================================
+Tempo nesta instancia: 15861.62 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #54
+==================================================
+Tabuleiro Inicial: 1 2 5 7 15 0 11 8 10 13 6 12 14 9 4 3 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 26 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 28 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 58
+>> [IDA*] Buscando no limite de custo: 30 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 338
+>> [IDA*] Buscando no limite de custo: 32 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1509
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7127
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 33199
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 47 ms | Nos expandidos nesta rodada: 154657
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 222 ms | Nos expandidos nesta rodada: 713715
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 490 ms | Nos expandidos nesta rodada: 1570220
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 42 movimentos
+ Total de Nos Expandidos: 2480825
+==================================================
+Tempo nesta instancia: 773.97 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #55
+==================================================
+Tabuleiro Inicial: 11 12 15 8 7 0 5 4 1 13 3 9 6 10 2 14 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 21
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 153
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 924
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 6373
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 13 ms | Nos expandidos nesta rodada: 42773
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 69 ms | Nos expandidos nesta rodada: 224711
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 274955
+==================================================
+Tempo nesta instancia: 85.06 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #56
+==================================================
+Tabuleiro Inicial: 2 14 15 5 6 12 4 11 1 9 8 0 7 3 10 13 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 29
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 353
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2525
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 15326
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 26 ms | Nos expandidos nesta rodada: 89877
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 156 ms | Nos expandidos nesta rodada: 513931
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 887 ms | Nos expandidos nesta rodada: 2888397
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 596 ms | Nos expandidos nesta rodada: 1911957
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 5422395
+==================================================
+Tempo nesta instancia: 1673.09 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #57
+==================================================
+Tabuleiro Inicial: 15 10 0 12 11 2 3 8 14 13 4 1 6 9 7 5 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 7
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 87
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 717
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 4552
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 28654
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 52 ms | Nos expandidos nesta rodada: 177106
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 324 ms | Nos expandidos nesta rodada: 1082638
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 1988 ms | Nos expandidos nesta rodada: 6529086
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 11905 ms | Nos expandidos nesta rodada: 38684026
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 69721 ms | Nos expandidos nesta rodada: 224954493
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ [FALHA] Limite de tempo excedido nesta rodada.
+
+==================================================
+ [FALHA] Execucao abortada por estourar o tempo limite.
+==================================================
+ Total de Nos Expandidos: 1555901579
+==================================================
+Tempo nesta instancia: 484071.68 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #58
+==================================================
+Tabuleiro Inicial: 12 1 7 14 6 11 8 15 9 2 13 0 5 3 10 4 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 39
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 190
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1145
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5859
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 29507
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 46 ms | Nos expandidos nesta rodada: 149721
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 237 ms | Nos expandidos nesta rodada: 761870
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 1226 ms | Nos expandidos nesta rodada: 3893176
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 6226 ms | Nos expandidos nesta rodada: 19930403
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 25327 ms | Nos expandidos nesta rodada: 80235404
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 105007314
+==================================================
+Tempo nesta instancia: 33075.65 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #59
+==================================================
+Tabuleiro Inicial: 10 12 7 13 11 0 1 4 2 14 3 15 8 5 9 6 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 93
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1275
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 14989
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 48 ms | Nos expandidos nesta rodada: 156996
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 451 ms | Nos expandidos nesta rodada: 1453738
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 1753 ms | Nos expandidos nesta rodada: 5629640
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 7256731
+==================================================
+Tempo nesta instancia: 2257.71 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #60
+==================================================
+Tabuleiro Inicial: 9 4 11 13 14 12 5 6 3 7 8 2 1 10 15 0 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 35
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 245
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1478
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9268
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 58507
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 112 ms | Nos expandidos nesta rodada: 373554
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 728 ms | Nos expandidos nesta rodada: 2378120
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 4674 ms | Nos expandidos nesta rodada: 14983549
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 28756 ms | Nos expandidos nesta rodada: 92360232
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 104028 ms | Nos expandidos nesta rodada: 333280106
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 58 movimentos
+ Total de Nos Expandidos: 443445095
+==================================================
+Tempo nesta instancia: 138322.74 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #61
+==================================================
+Tabuleiro Inicial: 15 14 11 13 9 10 12 0 7 4 8 1 6 2 5 3 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 116
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 694
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5883
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 12 ms | Nos expandidos nesta rodada: 43578
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 96 ms | Nos expandidos nesta rodada: 326584
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 724 ms | Nos expandidos nesta rodada: 2448748
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 5460 ms | Nos expandidos nesta rodada: 18176478
+>> [IDA*] Buscando no limite de custo: 62 movimentos...
+   ↳ Concluido em: 38871 ms | Nos expandidos nesta rodada: 132946219
+>> [IDA*] Buscando no limite de custo: 64 movimentos...
+   ↳ Concluido em: 39432 ms | Nos expandidos nesta rodada: 134106160
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 64 movimentos
+ Total de Nos Expandidos: 288054460
+==================================================
+Tempo nesta instancia: 84600.60 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #62
+==================================================
+Tabuleiro Inicial: 1 13 9 2 14 12 6 0 11 10 8 3 15 4 5 7 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 8
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 111
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1329
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 13536
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 36 ms | Nos expandidos nesta rodada: 118699
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 82 ms | Nos expandidos nesta rodada: 257065
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 48 movimentos
+ Total de Nos Expandidos: 390748
+==================================================
+Tempo nesta instancia: 124.17 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #63
+==================================================
+Tabuleiro Inicial: 4 6 0 12 1 14 3 2 10 7 13 5 11 8 9 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 5
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 166
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1343
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9104
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 58168
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 109 ms | Nos expandidos nesta rodada: 350081
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 624 ms | Nos expandidos nesta rodada: 2019360
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 1075 ms | Nos expandidos nesta rodada: 3459078
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 48 movimentos
+ Total de Nos Expandidos: 5897305
+==================================================
+Tempo nesta instancia: 1831.13 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #64
+==================================================
+Tabuleiro Inicial: 3 0 4 2 6 11 9 7 5 14 12 1 13 15 10 8 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 25 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 27 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 25
+>> [IDA*] Buscando no limite de custo: 29 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 188
+>> [IDA*] Buscando no limite de custo: 31 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1146
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 6022
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 29428
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 42 ms | Nos expandidos nesta rodada: 136339
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 196 ms | Nos expandidos nesta rodada: 616575
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 876 ms | Nos expandidos nesta rodada: 2746632
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 1460 ms | Nos expandidos nesta rodada: 4554278
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 43 movimentos
+ Total de Nos Expandidos: 8090635
+==================================================
+Tempo nesta instancia: 2587.96 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #65
+==================================================
+Tabuleiro Inicial: 13 5 1 9 4 14 6 8 2 15 11 7 3 10 0 12 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 43
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 206
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1265
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7082
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 12 ms | Nos expandidos nesta rodada: 40420
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 68 ms | Nos expandidos nesta rodada: 226304
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 383 ms | Nos expandidos nesta rodada: 1251367
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 908 ms | Nos expandidos nesta rodada: 2944139
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 4470827
+==================================================
+Tempo nesta instancia: 1375.51 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #66
+==================================================
+Tabuleiro Inicial: 2 8 1 0 12 10 11 13 15 5 6 4 3 14 7 9 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 7
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 42
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 532
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3987
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 26809
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 52 ms | Nos expandidos nesta rodada: 175679
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 332 ms | Nos expandidos nesta rodada: 1104165
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 2047 ms | Nos expandidos nesta rodada: 6725141
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 12236 ms | Nos expandidos nesta rodada: 39985844
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 71567 ms | Nos expandidos nesta rodada: 232550813
+>> [IDA*] Buscando no limite de custo: 59 movimentos...
+   ↳ [FALHA] Limite de tempo excedido nesta rodada.
+
+==================================================
+ [FALHA] Execucao abortada por estourar o tempo limite.
+==================================================
+ Total de Nos Expandidos: 1608845633
+==================================================
+Tempo nesta instancia: 498082.08 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #67
+==================================================
+Tabuleiro Inicial: 2 15 10 14 9 11 7 3 13 4 5 0 12 1 8 6 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 129
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1678
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 20054
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 60 ms | Nos expandidos nesta rodada: 200115
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 173 ms | Nos expandidos nesta rodada: 570343
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 792322
+==================================================
+Tempo nesta instancia: 240.18 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #68
+==================================================
+Tabuleiro Inicial: 6 9 2 15 14 1 8 3 0 13 7 10 12 11 4 5 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 339
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2648
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 16202
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 30 ms | Nos expandidos nesta rodada: 100090
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 185 ms | Nos expandidos nesta rodada: 594592
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 1076 ms | Nos expandidos nesta rodada: 3445627
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2003 ms | Nos expandidos nesta rodada: 6396517
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 10556015
+==================================================
+Tempo nesta instancia: 3300.86 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #69
+==================================================
+Tabuleiro Inicial: 4 9 11 1 7 6 15 8 3 0 2 10 5 12 14 13 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 11
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 57
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 324
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1986
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 10516
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 54021
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 83 ms | Nos expandidos nesta rodada: 274217
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 426 ms | Nos expandidos nesta rodada: 1395150
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2184 ms | Nos expandidos nesta rodada: 7108485
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 11211 ms | Nos expandidos nesta rodada: 36202691
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 57269 ms | Nos expandidos nesta rodada: 183991239
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 2418 ms | Nos expandidos nesta rodada: 7724708
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 236763405
+==================================================
+Tempo nesta instancia: 73614.04 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #70
+==================================================
+Tabuleiro Inicial: 8 10 11 9 4 0 2 1 13 14 12 6 15 3 7 5 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 34
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 351
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3099
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 23451
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 49 ms | Nos expandidos nesta rodada: 162898
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 344 ms | Nos expandidos nesta rodada: 1092582
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 312 ms | Nos expandidos nesta rodada: 1014418
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 2296833
+==================================================
+Tempo nesta instancia: 714.27 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #71
+==================================================
+Tabuleiro Inicial: 8 14 13 10 12 9 6 3 15 2 1 11 5 0 4 7 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 92
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 716
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7504
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 21 ms | Nos expandidos nesta rodada: 74699
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 199 ms | Nos expandidos nesta rodada: 669746
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 1713 ms | Nos expandidos nesta rodada: 5681079
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 13706 ms | Nos expandidos nesta rodada: 44814589
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 89646 ms | Nos expandidos nesta rodada: 290010587
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 60 movimentos
+ Total de Nos Expandidos: 341259013
+==================================================
+Tempo nesta instancia: 105289.95 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #72
+==================================================
+Tabuleiro Inicial: 8 4 14 3 11 10 9 1 6 2 13 7 5 0 15 12 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 52
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 391
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3484
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 23506
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 44 ms | Nos expandidos nesta rodada: 149179
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 264 ms | Nos expandidos nesta rodada: 873561
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 1495 ms | Nos expandidos nesta rodada: 4909533
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 8208 ms | Nos expandidos nesta rodada: 26728841
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 7957 ms | Nos expandidos nesta rodada: 25965058
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 58653606
+==================================================
+Tempo nesta instancia: 17978.23 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #73
+==================================================
+Tabuleiro Inicial: 1 5 15 14 7 9 10 11 2 0 3 13 8 6 12 4 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 26
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 234
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1543
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9585
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 58657
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 106 ms | Nos expandidos nesta rodada: 350431
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 621 ms | Nos expandidos nesta rodada: 2056883
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 3650 ms | Nos expandidos nesta rodada: 11914194
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 21105 ms | Nos expandidos nesta rodada: 68350687
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 841 ms | Nos expandidos nesta rodada: 2703969
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 85446209
+==================================================
+Tempo nesta instancia: 26347.27 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #74
+==================================================
+Tabuleiro Inicial: 15 13 14 4 9 7 0 6 3 5 11 8 12 2 10 1 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 29
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 204
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1085
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 6566
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 11 ms | Nos expandidos nesta rodada: 38251
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 64 ms | Nos expandidos nesta rodada: 218971
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 371 ms | Nos expandidos nesta rodada: 1245586
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 2106 ms | Nos expandidos nesta rodada: 7000213
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 11875 ms | Nos expandidos nesta rodada: 39057718
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 15344 ms | Nos expandidos nesta rodada: 50563400
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 98132023
+==================================================
+Tempo nesta instancia: 29775.97 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #75
+==================================================
+Tabuleiro Inicial: 12 5 11 3 9 8 0 2 15 6 4 7 13 1 14 10 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 40
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 257
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1614
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 10532
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 59455
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 114 ms | Nos expandidos nesta rodada: 330245
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 549 ms | Nos expandidos nesta rodada: 1774682
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2903 ms | Nos expandidos nesta rodada: 9291191
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 14971 ms | Nos expandidos nesta rodada: 47740490
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 3997 ms | Nos expandidos nesta rodada: 12851193
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 72059699
+==================================================
+Tempo nesta instancia: 22559.51 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #76
+==================================================
+Tabuleiro Inicial: 9 10 15 13 5 7 11 1 6 12 2 3 0 14 4 8 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 3
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 62
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 335
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1859
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 11973
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 22 ms | Nos expandidos nesta rodada: 75598
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 141 ms | Nos expandidos nesta rodada: 465550
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 852 ms | Nos expandidos nesta rodada: 2798659
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 5100 ms | Nos expandidos nesta rodada: 16588604
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 10421 ms | Nos expandidos nesta rodada: 33618909
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 53561553
+==================================================
+Tempo nesta instancia: 16542.50 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #77
+==================================================
+Tabuleiro Inicial: 6 2 13 7 5 12 1 3 8 14 11 4 9 0 10 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 28 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 15
+>> [IDA*] Buscando no limite de custo: 30 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 79
+>> [IDA*] Buscando no limite de custo: 32 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 393
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2520
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 13687
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 22 ms | Nos expandidos nesta rodada: 73202
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 74 ms | Nos expandidos nesta rodada: 239130
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 40 movimentos
+ Total de Nos Expandidos: 329026
+==================================================
+Tempo nesta instancia: 101.97 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #78
+==================================================
+Tabuleiro Inicial: 11 8 0 15 4 12 7 1 10 13 6 3 2 14 5 9 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 8
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 63
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 827
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7154
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 59440
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 142 ms | Nos expandidos nesta rodada: 478346
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 1104 ms | Nos expandidos nesta rodada: 3683570
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 8162 ms | Nos expandidos nesta rodada: 26896867
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 57461 ms | Nos expandidos nesta rodada: 186832974
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 5945 ms | Nos expandidos nesta rodada: 19297808
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 60 movimentos
+ Total de Nos Expandidos: 237257057
+==================================================
+Tempo nesta instancia: 72836.75 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #79
+==================================================
+Tabuleiro Inicial: 10 4 15 7 9 2 13 0 8 5 14 1 3 12 6 11 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 4
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 767
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9625
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 25 ms | Nos expandidos nesta rodada: 82667
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 185 ms | Nos expandidos nesta rodada: 597444
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 1228 ms | Nos expandidos nesta rodada: 3932645
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 7655 ms | Nos expandidos nesta rodada: 24514407
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 11531 ms | Nos expandidos nesta rodada: 36909302
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 66046861
+==================================================
+Tempo nesta instancia: 20629.06 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #80
+==================================================
+Tabuleiro Inicial: 5 0 4 12 11 15 1 13 6 9 3 10 8 2 7 14 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 142
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 904
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5746
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 34654
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 62 ms | Nos expandidos nesta rodada: 204656
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 382 ms | Nos expandidos nesta rodada: 1200825
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 2182 ms | Nos expandidos nesta rodada: 7020025
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 7812 ms | Nos expandidos nesta rodada: 24990653
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 33457606
+==================================================
+Tempo nesta instancia: 10452.01 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #81
+==================================================
+Tabuleiro Inicial: 8 15 6 5 12 13 14 4 2 1 11 3 10 0 9 7 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 4
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 249
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 4862
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 54955
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 150 ms | Nos expandidos nesta rodada: 498873
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 1199 ms | Nos expandidos nesta rodada: 3929631
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 1092 ms | Nos expandidos nesta rodada: 3566231
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 8054805
+==================================================
+Tempo nesta instancia: 2459.48 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #82
+==================================================
+Tabuleiro Inicial: 7 8 10 3 13 1 5 14 9 4 0 11 12 2 6 15 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 10
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 250
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2260
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 17816
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 38 ms | Nos expandidos nesta rodada: 123057
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 250 ms | Nos expandidos nesta rodada: 799749
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 1553 ms | Nos expandidos nesta rodada: 4908219
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 1938 ms | Nos expandidos nesta rodada: 6148243
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 11999604
+==================================================
+Tempo nesta instancia: 3788.01 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #83
+==================================================
+Tabuleiro Inicial: 6 15 5 3 9 2 1 13 4 7 14 12 0 11 10 8 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 15
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 626
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 4764
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 28155
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 50 ms | Nos expandidos nesta rodada: 163608
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 282 ms | Nos expandidos nesta rodada: 914298
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 1549 ms | Nos expandidos nesta rodada: 4996054
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 8355 ms | Nos expandidos nesta rodada: 26829451
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 36209 ms | Nos expandidos nesta rodada: 115716982
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 148653954
+==================================================
+Tempo nesta instancia: 46457.09 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #84
+==================================================
+Tabuleiro Inicial: 0 13 12 2 7 1 10 4 3 6 15 14 9 11 8 5 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 17
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 277
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2879
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 26276
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 64 ms | Nos expandidos nesta rodada: 204649
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 34 ms | Nos expandidos nesta rodada: 103551
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 337649
+==================================================
+Tempo nesta instancia: 107.86 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #85
+==================================================
+Tabuleiro Inicial: 11 14 13 2 4 0 12 5 8 1 7 9 10 6 15 3 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 31
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 222
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2195
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 16401
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 33 ms | Nos expandidos nesta rodada: 113351
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 243 ms | Nos expandidos nesta rodada: 767931
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 1424 ms | Nos expandidos nesta rodada: 4675920
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 5576051
+==================================================
+Tempo nesta instancia: 1707.59 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #86
+==================================================
+Tabuleiro Inicial: 13 7 6 15 14 0 9 10 12 3 4 2 5 8 1 11 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 350
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5582
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 18 ms | Nos expandidos nesta rodada: 64541
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 181 ms | Nos expandidos nesta rodada: 604592
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 577 ms | Nos expandidos nesta rodada: 1908993
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 2584058
+==================================================
+Tempo nesta instancia: 779.67 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #87
+==================================================
+Tabuleiro Inicial: 4 13 9 10 0 14 8 6 11 5 7 1 12 15 2 3 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 30
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 313
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2632
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 24555
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 60 ms | Nos expandidos nesta rodada: 207465
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 504 ms | Nos expandidos nesta rodada: 1696114
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 2069 ms | Nos expandidos nesta rodada: 6876758
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 8807868
+==================================================
+Tempo nesta instancia: 2642.34 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #88
+==================================================
+Tabuleiro Inicial: 10 12 1 7 9 14 2 15 11 5 8 13 6 0 3 4 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 69
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 633
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5512
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 13 ms | Nos expandidos nesta rodada: 43644
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 102 ms | Nos expandidos nesta rodada: 321832
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 704 ms | Nos expandidos nesta rodada: 2261526
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 181 ms | Nos expandidos nesta rodada: 574606
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 3207824
+==================================================
+Tempo nesta instancia: 1002.96 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #89
+==================================================
+Tabuleiro Inicial: 12 15 10 9 5 2 4 1 13 6 14 11 8 7 0 3 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 8
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 84
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1062
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8239
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 18 ms | Nos expandidos nesta rodada: 61430
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 134 ms | Nos expandidos nesta rodada: 439053
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 919 ms | Nos expandidos nesta rodada: 2989919
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 6110 ms | Nos expandidos nesta rodada: 19698745
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 7496 ms | Nos expandidos nesta rodada: 24123498
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 47322038
+==================================================
+Tempo nesta instancia: 14682.13 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #90
+==================================================
+Tabuleiro Inicial: 5 6 2 8 0 1 3 15 13 14 10 7 11 4 12 9 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 29 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 23
+>> [IDA*] Buscando no limite de custo: 31 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 162
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1100
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 6354
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 34732
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 55 ms | Nos expandidos nesta rodada: 179705
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 278 ms | Nos expandidos nesta rodada: 891535
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 476 ms | Nos expandidos nesta rodada: 1527491
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 43 movimentos
+ Total de Nos Expandidos: 2641102
+==================================================
+Tempo nesta instancia: 823.33 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #91
+==================================================
+Tabuleiro Inicial: 9 5 6 8 12 7 1 2 3 0 14 10 11 15 13 4 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 24
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 360
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 3149
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 21818
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 41 ms | Nos expandidos nesta rodada: 136239
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 251 ms | Nos expandidos nesta rodada: 789634
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 1378 ms | Nos expandidos nesta rodada: 4402203
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 3440 ms | Nos expandidos nesta rodada: 10878348
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 16231775
+==================================================
+Tempo nesta instancia: 5120.23 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #92
+==================================================
+Tabuleiro Inicial: 7 14 6 12 2 5 11 0 13 4 10 9 15 1 3 8 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 7
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 154
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1245
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8557
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 57939
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 115 ms | Nos expandidos nesta rodada: 371846
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 448 ms | Nos expandidos nesta rodada: 1446511
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 48 movimentos
+ Total de Nos Expandidos: 1886261
+==================================================
+Tempo nesta instancia: 583.58 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #93
+==================================================
+Tabuleiro Inicial: 7 9 2 13 4 6 10 12 3 1 0 5 8 15 14 11 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 6
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 132
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1075
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8039
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 57834
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 115 ms | Nos expandidos nesta rodada: 382747
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 736 ms | Nos expandidos nesta rodada: 2400479
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 4489 ms | Nos expandidos nesta rodada: 14550483
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 26637 ms | Nos expandidos nesta rodada: 86062652
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 155191 ms | Nos expandidos nesta rodada: 498407038
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ [FALHA] Limite de tempo excedido nesta rodada.
+
+==================================================
+ [FALHA] Execucao abortada por estourar o tempo limite.
+==================================================
+ Total de Nos Expandidos: -854194097
+==================================================
+Tempo nesta instancia: 1073660.23 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #94
+==================================================
+Tabuleiro Inicial: 14 15 12 3 5 7 11 2 6 0 4 1 10 8 9 13 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 7
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 138
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1094
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8238
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 59547
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 121 ms | Nos expandidos nesta rodada: 410434
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 804 ms | Nos expandidos nesta rodada: 2699926
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 5139 ms | Nos expandidos nesta rodada: 17005750
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 31500 ms | Nos expandidos nesta rodada: 103549750
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 34603 ms | Nos expandidos nesta rodada: 112466844
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 236201728
+==================================================
+Tempo nesta instancia: 72189.33 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #95
+==================================================
+Tabuleiro Inicial: 13 10 1 5 11 3 2 4 8 12 14 0 15 9 6 7 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 32
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 519
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5698
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 48581
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 113 ms | Nos expandidos nesta rodada: 356183
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 759 ms | Nos expandidos nesta rodada: 2378398
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 1659 ms | Nos expandidos nesta rodada: 5193504
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 7982917
+==================================================
+Tempo nesta instancia: 2549.62 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #96
+==================================================
+Tabuleiro Inicial: 7 1 15 11 8 10 4 0 9 5 13 2 14 6 12 3 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 23
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 175
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1112
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 6940
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 12 ms | Nos expandidos nesta rodada: 41546
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 73 ms | Nos expandidos nesta rodada: 239801
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 174 ms | Nos expandidos nesta rodada: 561782
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 851379
+==================================================
+Tempo nesta instancia: 263.85 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #97
+==================================================
+Tabuleiro Inicial: 8 2 3 12 6 10 13 1 4 0 9 14 7 15 5 11 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 22
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 157
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 1156
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8084
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 54726
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 106 ms | Nos expandidos nesta rodada: 353541
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 668 ms | Nos expandidos nesta rodada: 2201679
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 4089 ms | Nos expandidos nesta rodada: 13329902
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 374 ms | Nos expandidos nesta rodada: 1213236
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 17162503
+==================================================
+Tempo nesta instancia: 5257.98 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #98
+==================================================
+Tabuleiro Inicial: 6 14 0 2 5 13 9 15 1 11 3 7 12 8 4 10 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 47
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 666
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5877
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 13 ms | Nos expandidos nesta rodada: 44118
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 95 ms | Nos expandidos nesta rodada: 309361
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 630 ms | Nos expandidos nesta rodada: 2048327
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 764 ms | Nos expandidos nesta rodada: 2436849
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 4845247
+==================================================
+Tempo nesta instancia: 1505.31 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #99
+==================================================
+Tabuleiro Inicial: 10 1 8 13 7 11 15 5 3 2 14 6 4 0 9 12 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 83
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 781
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 6558
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 50560
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 112 ms | Nos expandidos nesta rodada: 369381
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 797 ms | Nos expandidos nesta rodada: 2564556
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 5244 ms | Nos expandidos nesta rodada: 17016086
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 14337 ms | Nos expandidos nesta rodada: 46303999
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 66312004
+==================================================
+Tempo nesta instancia: 20509.34 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #100
+==================================================
+Tabuleiro Inicial: 10 2 7 3 8 14 0 5 15 1 13 12 11 6 4 9 
+--------------------------------------------------
+
+Iniciando IDA* Sequencial...
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 4
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 34
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 349
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 0 ms | Nos expandidos nesta rodada: 2840
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 20400
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 40 ms | Nos expandidos nesta rodada: 134825
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 257 ms | Nos expandidos nesta rodada: 844111
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 1021 ms | Nos expandidos nesta rodada: 3307284
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 4309847
+==================================================
+Tempo nesta instancia: 1326.96 ms
+==================================================
+
+==================================================
+          RELATORIO DE EXECUCAO FINAL             
+==================================================
+ Algoritmo:  IDA*
+ Heuristica: Manhattan
+--------------------------------------------------
+ [INSTANCIAS]
+ Total Lidas:         100
+ Solucionadas:        100
+ Inviaveis (Pulo):    0
+--------------------------------------------------
+ [TEMPOS DE RESOLUCAO]
+ Tempo Minimo:        85.06 ms
+ Tempo Maximo:        1073660.23 ms
+ Tempo Medio:         50834.05 ms
+ Total Busca Ativa:   5083.41 s
+ Total Pipeline(Wall):5083.41 s
+--------------------------------------------------
+ [DESEMPENHO DO MOTOR]
+ Total de Nos Abertos:12186627498 (Fator de Poda)
+ Vazao de Busca:      2397335 nos/segundo
+==================================================
+
+[DADOS BRUTOS PARA HISTOGRAMA - TEMPO EM MS]
+89728
+416310
+25930
+84014
+625
+3831
+1433
+1773
+8480
+1310
+2537
+224
+4257
+7762
+93810
+27753
+1231
+21673
+33926
+6865
+1810
+161
+12202
+14029
+4443
+143
+98
+200194
+93490
+222
+12149
+4658
+3282
+25628
+25748
+103
+8130
+53816
+23074
+573681
+3722
+1383
+36735
+29762
+960
+37720
+18766
+18950
+71041
+6138
+657
+44516
+15862
+774
+85
+1673
+484072
+33076
+2258
+138323
+84601
+124
+1831
+2588
+1376
+498082
+240
+3301
+73614
+714
+105290
+17978
+26347
+29776
+22560
+16543
+102
+72837
+20629
+10452
+2459
+3788
+46457
+108
+1708
+780
+2642
+1003
+14682
+823
+5120
+584
+1073660
+72189
+2550
+264
+5258
+1505
+20509
+1327

@@ -1,0 +1,3964 @@
+g++ -std=c++17 -O3 -Wall -pthread main.cpp -o puzzle_solver
+=== BEM-VINDO AO SOLVER DO PUZZLE ===
+Configuracao: Heuristica [PDB + Conflito Linear] | Algoritmo [IDA* Paralelo]
+Aguardando entrada de dados...
+
+Gerando PDB (pdb_grupo1.bin)... Aguarde alguns segundos.
+Arquivo pdb_grupo1.bin gravado com sucesso.
+Gerando PDB (pdb_grupo2.bin)... Aguarde alguns segundos.
+Arquivo pdb_grupo2.bin gravado com sucesso.
+Gerando PDB (pdb_grupo3.bin)... Aguarde alguns segundos.
+Arquivo pdb_grupo3.bin gravado com sucesso.
+==================================================
+ PROCESSANDO INSTANCIA #1
+==================================================
+Tabuleiro Inicial: 2 6 9 13 14 0 5 12 1 15 8 10 11 4 7 3 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 34
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 731
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 6280
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 40669
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 19 ms | Nos expandidos nesta rodada: 254439
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 119 ms | Nos expandidos nesta rodada: 1593272
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 740 ms | Nos expandidos nesta rodada: 9749753
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 143 ms | Nos expandidos nesta rodada: 2116397
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 58 movimentos
+ Total de Nos Expandidos: 13761575
+==================================================
+Tempo nesta instancia: 1040.04 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #2
+==================================================
+Tabuleiro Inicial: 15 14 12 7 11 6 4 0 5 3 9 8 2 10 13 1 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 150
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1364
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9439
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 59686
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 30 ms | Nos expandidos nesta rodada: 353133
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 159 ms | Nos expandidos nesta rodada: 2040505
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 921 ms | Nos expandidos nesta rodada: 11681865
+
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 1936 ms | Nos expandidos nesta rodada: 28365476
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 60 movimentos
+ Total de Nos Expandidos: 42511626
+==================================================
+Tempo nesta instancia: 3063.84 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #3
+==================================================
+Tabuleiro Inicial: 10 6 13 2 14 12 5 7 9 8 11 0 1 4 3 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 10
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 240
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1821
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 10625
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 61975
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 28 ms | Nos expandidos nesta rodada: 366713
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 156 ms | Nos expandidos nesta rodada: 2136613
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 31 ms | Nos expandidos nesta rodada: 450696
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 3028693
+==================================================
+Tempo nesta instancia: 236.81 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #4
+==================================================
+Tabuleiro Inicial: 7 14 1 9 4 6 8 10 3 2 5 11 12 0 13 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 48
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 947
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8655
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 70917
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 45 ms | Nos expandidos nesta rodada: 551594
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 342 ms | Nos expandidos nesta rodada: 4098493
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 1518 ms | Nos expandidos nesta rodada: 22073024
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 58 movimentos
+ Total de Nos Expandidos: 26803678
+==================================================
+Tempo nesta instancia: 1922.77 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #5
+==================================================
+Tabuleiro Inicial: 1 7 10 11 15 12 9 3 8 2 4 13 6 5 0 14 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 406
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 4946
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 5354
+==================================================
+Tempo nesta instancia: 10.08 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #6
+==================================================
+Tabuleiro Inicial: 2 8 13 4 11 6 3 5 12 0 10 14 7 9 1 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 5
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 123
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 978
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 5185
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 30168
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 181623
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 91 ms | Nos expandidos nesta rodada: 1061928
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 97 ms | Nos expandidos nesta rodada: 1383799
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 2663809
+==================================================
+Tempo nesta instancia: 226.11 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #7
+==================================================
+Tabuleiro Inicial: 4 7 6 9 0 1 15 2 3 5 14 8 11 10 12 13 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 65
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 883
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 6636
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 43441
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 13 ms | Nos expandidos nesta rodada: 182481
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 233507
+==================================================
+Tempo nesta instancia: 28.31 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #8
+==================================================
+Tabuleiro Inicial: 8 1 5 6 14 9 3 0 12 10 2 7 13 15 4 11 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2
+
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 195
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2402
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 16974
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 98427
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 201141
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 319141
+==================================================
+Tempo nesta instancia: 34.59 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #9
+==================================================
+Tabuleiro Inicial: 4 14 10 3 9 8 0 12 1 6 5 13 2 11 15 7 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 1
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 63
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 681
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 4028
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 22207
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 123379
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 56 ms | Nos expandidos nesta rodada: 697535
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 37 ms | Nos expandidos nesta rodada: 508396
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 1356290
+==================================================
+Tempo nesta instancia: 125.39 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #10
+==================================================
+Tabuleiro Inicial: 6 13 15 7 3 0 5 1 9 4 11 2 12 14 10 8 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 4
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 285
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 3330
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 25364
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 65564
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 94547
+==================================================
+Tempo nesta instancia: 24.21 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #11
+==================================================
+Tabuleiro Inicial: 15 9 5 12 0 7 13 11 1 4 14 10 2 8 3 6 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 82
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1234
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 11272
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 97126
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 54 ms | Nos expandidos nesta rodada: 741186
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 850900
+==================================================
+Tempo nesta instancia: 73.13 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #12
+==================================================
+Tabuleiro Inicial: 1 11 0 9 10 15 14 2 6 5 4 12 13 8 7 3 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 51
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 763
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8027
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 67051
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 75892
+==================================================
+Tempo nesta instancia: 16.29 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #13
+==================================================
+Tabuleiro Inicial: 1 15 12 5 14 9 3 10 8 6 13 11 0 7 4 2 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 58 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 22
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 658
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 7283
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 65919
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 34 ms | Nos expandidos nesta rodada: 476277
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 550159
+==================================================
+Tempo nesta instancia: 44.86 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #14
+==================================================
+Tabuleiro Inicial: 8 6 7 15 13 5 1 0 3 12 10 14 2 4 9 11 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 301
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 3637
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 36871
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 35 ms | Nos expandidos nesta rodada: 336217
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 29 ms | Nos expandidos nesta rodada: 425627
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 802660
+==================================================
+Tempo nesta instancia: 79.13 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #15
+==================================================
+Tabuleiro Inicial: 7 14 6 12 15 4 5 13 10 0 8 3 1 9 11 2 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 7
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 243
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 2115
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 14898
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 106150
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 54 ms | Nos expandidos nesta rodada: 736788
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 136 ms | Nos expandidos nesta rodada: 2041888
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 2902089
+==================================================
+Tempo nesta instancia: 215.56 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #16
+==================================================
+Tabuleiro Inicial: 7 6 0 10 14 15 11 12 13 4 9 8 1 3 5 2 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 33
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 515
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 3942
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 28335
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 18 ms | Nos expandidos nesta rodada: 194755
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 117 ms | Nos expandidos nesta rodada: 1298480
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 317 ms | Nos expandidos nesta rodada: 4704150
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 58 movimentos
+ Total de Nos Expandidos: 6230210
+==================================================
+Tempo nesta instancia: 467.01 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #17
+==================================================
+Tabuleiro Inicial: 9 10 3 6 14 1 15 2 11 8 0 5 12 7 13 4 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 15
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 460
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 5338
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 47516
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 23 ms | Nos expandidos nesta rodada: 316292
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 369621
+==================================================
+Tempo nesta instancia: 41.00 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #18
+==================================================
+Tabuleiro Inicial: 1 9 12 4 5 14 0 10 7 3 13 2 15 11 6 8 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 31
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 545
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 3635
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 20794
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 115063
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 46 ms | Nos expandidos nesta rodada: 634473
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 216 ms | Nos expandidos nesta rodada: 3178070
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 3952611
+==================================================
+Tempo nesta instancia: 293.28 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #19
+==================================================
+Tabuleiro Inicial: 13 10 14 5 11 4 1 7 8 6 0 3 9 12 15 2 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 1
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 46
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 854
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 7579
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 58915
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 41 ms | Nos expandidos nesta rodada: 439136
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 279 ms | Nos expandidos nesta rodada: 3144451
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 1036 ms | Nos expandidos nesta rodada: 15030405
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 18681387
+==================================================
+Tempo nesta instancia: 1379.98 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #20
+==================================================
+Tabuleiro Inicial: 4 9 0 6 7 15 5 1 8 13 2 14 10 3 11 12 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 70
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 804
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 5334
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 35895
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 22 ms | Nos expandidos nesta rodada: 238263
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 53 ms | Nos expandidos nesta rodada: 754962
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 1035328
+==================================================
+Tempo nesta instancia: 90.00 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #21
+==================================================
+Tabuleiro Inicial: 9 2 6 10 14 1 15 7 4 11 13 5 12 0 3 8 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 308
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2737
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 17820
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 117231
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 21 ms | Nos expandidos nesta rodada: 288778
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 426881
+==================================================
+Tempo nesta instancia: 44.22 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #22
+==================================================
+Tabuleiro Inicial: 1 9 5 12 14 0 6 3 15 13 4 2 8 10 11 7 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 1
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 196
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 2372
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 2880
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 5449
+==================================================
+Tempo nesta instancia: 17.82 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #23
+==================================================
+Tabuleiro Inicial: 14 2 7 1 8 10 9 5 13 12 11 6 15 0 3 4 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 56
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1184
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 10525
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 76976
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 33 ms | Nos expandidos nesta rodada: 482622
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 571363
+==================================================
+Tempo nesta instancia: 47.65 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #24
+==================================================
+Tabuleiro Inicial: 7 11 8 10 3 12 0 6 15 1 13 4 9 5 14 2 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 341
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 7677
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 94913
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 33 ms | Nos expandidos nesta rodada: 457478
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 560409
+==================================================
+Tempo nesta instancia: 51.42 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #25
+==================================================
+Tabuleiro Inicial: 3 7 11 10 5 1 0 12 15 2 13 8 4 9 6 14 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 105
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 1969
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 17493
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 45298
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 64865
+==================================================
+Tempo nesta instancia: 22.66 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #26
+==================================================
+Tabuleiro Inicial: 10 1 8 7 13 12 2 3 9 6 5 4 14 11 0 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 29 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 31 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 17
+
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 410
+
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 3317
+
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 19055
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 22958
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 39 movimentos
+ Total de Nos Expandidos: 45757
+==================================================
+Tempo nesta instancia: 16.64 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #27
+==================================================
+Tabuleiro Inicial: 2 15 14 9 5 7 0 6 13 1 3 10 12 8 4 11 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 11
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 541
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 7315
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 9192
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 17059
+==================================================
+Tempo nesta instancia: 16.12 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #28
+==================================================
+Tabuleiro Inicial: 4 15 3 2 13 9 0 8 12 7 6 1 5 10 11 14 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 5
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 184
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 1156
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 6029
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 34413
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 14 ms | Nos expandidos nesta rodada: 192782
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 75 ms | Nos expandidos nesta rodada: 1063593
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 456 ms | Nos expandidos nesta rodada: 5809653
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 43 ms | Nos expandidos nesta rodada: 622301
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 7730116
+==================================================
+Tempo nesta instancia: 613.92 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #29
+==================================================
+Tabuleiro Inicial: 10 4 3 14 13 7 0 8 2 12 11 6 9 15 5 1 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 16
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 291
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 1371
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 6103
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 28199
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 11 ms | Nos expandidos nesta rodada: 133004
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 47 ms | Nos expandidos nesta rodada: 661282
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 256 ms | Nos expandidos nesta rodada: 3477176
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 685 ms | Nos expandidos nesta rodada: 10162621
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 14470063
+==================================================
+Tempo nesta instancia: 1025.51 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #30
+==================================================
+Tabuleiro Inicial: 5 0 7 2 12 9 6 11 8 13 3 4 10 1 14 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 40
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 723
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 5322
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 31324
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 43 movimentos
+ Total de Nos Expandidos: 37409
+==================================================
+Tempo nesta instancia: 13.46 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #31
+==================================================
+Tabuleiro Inicial: 8 3 4 2 11 1 13 6 10 14 0 5 9 15 7 12 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 39
+
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 637
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 4998
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 29376
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 14 ms | Nos expandidos nesta rodada: 163180
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 74 ms | Nos expandidos nesta rodada: 867026
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 97 ms | Nos expandidos nesta rodada: 1381083
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 48 movimentos
+ Total de Nos Expandidos: 2446339
+==================================================
+Tempo nesta instancia: 203.36 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #32
+==================================================
+Tabuleiro Inicial: 14 7 5 12 0 4 9 11 13 2 8 3 1 10 6 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 13
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 295
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2277
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 13342
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 72761
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 29 ms | Nos expandidos nesta rodada: 391973
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 145 ms | Nos expandidos nesta rodada: 2072973
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 184 ms | Nos expandidos nesta rodada: 2667285
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 5220919
+==================================================
+Tempo nesta instancia: 379.74 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #33
+==================================================
+Tabuleiro Inicial: 2 8 14 10 9 4 12 11 3 6 1 0 15 5 13 7 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 402
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9494
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 100528
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 110424
+==================================================
+Tempo nesta instancia: 17.70 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #34
+==================================================
+Tabuleiro Inicial: 15 2 10 8 5 11 6 9 4 12 7 1 3 13 0 14 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 139
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1967
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 22554
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 19 ms | Nos expandidos nesta rodada: 215121
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 59 ms | Nos expandidos nesta rodada: 853268
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 1093049
+==================================================
+Tempo nesta instancia: 89.61 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #35
+==================================================
+Tabuleiro Inicial: 5 15 0 7 4 9 13 3 12 11 8 1 6 14 2 10 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 6
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 153
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1759
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 13368
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 11 ms | Nos expandidos nesta rodada: 93578
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 68 ms | Nos expandidos nesta rodada: 632978
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 49 ms | Nos expandidos nesta rodada: 719276
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 1461118
+==================================================
+Tempo nesta instancia: 140.76 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #36
+==================================================
+Tabuleiro Inicial: 13 6 4 0 10 5 11 8 1 2 12 15 7 3 14 9 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 58 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5
+
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 60
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 371
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 2208
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 10073
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 43 movimentos
+ Total de Nos Expandidos: 12717
+==================================================
+Tempo nesta instancia: 8.03 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #37
+==================================================
+Tabuleiro Inicial: 3 4 9 1 2 13 10 8 7 12 0 6 15 5 11 14 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 4
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 197
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 2130
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 14653
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 96483
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 72741
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 186208
+==================================================
+Tempo nesta instancia: 33.82 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #38
+==================================================
+Tabuleiro Inicial: 4 1 15 12 7 9 11 14 8 6 0 3 10 2 13 5 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 7
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 327
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 4020
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 40001
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 26 ms | Nos expandidos nesta rodada: 355017
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 129 ms | Nos expandidos nesta rodada: 1905081
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 2304453
+==================================================
+Tempo nesta instancia: 173.18 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #39
+==================================================
+Tabuleiro Inicial: 8 12 5 2 15 13 0 7 9 6 4 3 11 14 1 10 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 13
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 380
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 4940
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 47335
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 38 ms | Nos expandidos nesta rodada: 408907
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 92 ms | Nos expandidos nesta rodada: 1348729
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 1810304
+==================================================
+Tempo nesta instancia: 149.90 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #40
+==================================================
+Tabuleiro Inicial: 4 8 3 13 10 15 9 7 12 11 6 14 5 0 2 1 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 164
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 3211
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 32894
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 25 ms | Nos expandidos nesta rodada: 269657
+
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 166 ms | Nos expandidos nesta rodada: 1998021
+
+>> [IDA*] Buscando no limite de custo: 62 movimentos...
+   ↳ Concluido em: 847 ms | Nos expandidos nesta rodada: 12770089
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 62 movimentos
+ Total de Nos Expandidos: 15074036
+==================================================
+Tempo nesta instancia: 1051.78 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #41
+==================================================
+Tabuleiro Inicial: 9 2 15 3 1 14 0 8 4 7 13 12 10 11 5 6 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 67
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 1089
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 7684
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 47368
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 20 ms | Nos expandidos nesta rodada: 270084
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 31 ms | Nos expandidos nesta rodada: 436082
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 47 movimentos
+ Total de Nos Expandidos: 762374
+==================================================
+Tempo nesta instancia: 73.78 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #42
+==================================================
+Tabuleiro Inicial: 5 15 3 10 0 4 2 1 7 9 11 6 13 14 8 12 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 89
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1294
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9301
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 59528
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 228260
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 45 movimentos
+ Total de Nos Expandidos: 298472
+==================================================
+Tempo nesta instancia: 33.94 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #43
+==================================================
+Tabuleiro Inicial: 4 10 11 14 5 15 1 2 9 0 7 6 3 12 8 13 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 28
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 924
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 10770
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 82367
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 47 ms | Nos expandidos nesta rodada: 571535
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 332 ms | Nos expandidos nesta rodada: 3817661
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 226 ms | Nos expandidos nesta rodada: 3367864
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 7851149
+==================================================
+Tempo nesta instancia: 625.76 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #44
+==================================================
+Tabuleiro Inicial: 9 2 3 15 5 0 6 13 12 10 1 14 11 4 8 7 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 31
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 734
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 8318
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 74827
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 48 ms | Nos expandidos nesta rodada: 613588
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 55 ms | Nos expandidos nesta rodada: 804594
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 1502092
+==================================================
+Tempo nesta instancia: 124.56 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #45
+==================================================
+Tabuleiro Inicial: 11 4 6 1 3 14 8 15 10 12 7 13 2 9 5 0 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 58 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 33
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 556
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5178
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 39193
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 16938
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 61898
+==================================================
+Tempo nesta instancia: 13.00 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #46
+==================================================
+Tabuleiro Inicial: 8 11 5 2 10 4 0 7 12 3 9 1 14 13 6 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 13
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 305
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 2824
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 20488
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 13 ms | Nos expandidos nesta rodada: 138767
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 74 ms | Nos expandidos nesta rodada: 916161
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 268 ms | Nos expandidos nesta rodada: 3853022
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 4931580
+==================================================
+Tempo nesta instancia: 372.20 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #47
+==================================================
+Tabuleiro Inicial: 7 3 5 14 0 8 9 6 2 11 12 1 15 10 13 4 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 207
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2601
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 19951
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 141399
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 30 ms | Nos expandidos nesta rodada: 449046
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 613206
+==================================================
+Tempo nesta instancia: 57.11 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #48
+==================================================
+Tabuleiro Inicial: 2 14 12 13 0 6 10 15 1 9 8 3 5 4 7 11 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 34
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 423
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2650
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 14106
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 75087
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 37 ms | Nos expandidos nesta rodada: 403457
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 188 ms | Nos expandidos nesta rodada: 2148524
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 89 ms | Nos expandidos nesta rodada: 1294171
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 3938452
+==================================================
+Tempo nesta instancia: 335.36 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #49
+==================================================
+Tabuleiro Inicial: 10 11 0 2 12 7 3 8 14 6 13 9 5 4 15 1 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 180
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2457
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 18515
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 12 ms | Nos expandidos nesta rodada: 123094
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 73 ms | Nos expandidos nesta rodada: 793320
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 351 ms | Nos expandidos nesta rodada: 4611315
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 5548882
+==================================================
+Tempo nesta instancia: 448.16 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #50
+==================================================
+Tabuleiro Inicial: 5 1 0 9 8 2 3 15 4 10 11 6 12 13 7 14 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 12
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 293
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1663
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8794
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 47994
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 21 ms | Nos expandidos nesta rodada: 271035
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 102 ms | Nos expandidos nesta rodada: 1459108
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 1788899
+==================================================
+Tempo nesta instancia: 140.78 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #51
+==================================================
+Tabuleiro Inicial: 7 10 0 14 1 4 3 13 8 11 15 2 12 6 5 9 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 4
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 164
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1759
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 14861
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 122278
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 13 ms | Nos expandidos nesta rodada: 176778
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 315844
+==================================================
+Tempo nesta instancia: 41.14 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #52
+==================================================
+Tabuleiro Inicial: 15 2 10 4 3 6 12 0 11 9 14 13 7 5 8 1 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 172
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 4802
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 66295
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 79 ms | Nos expandidos nesta rodada: 664269
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 141 ms | Nos expandidos nesta rodada: 2009402
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 2744940
+==================================================
+Tempo nesta instancia: 238.86 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #53
+==================================================
+Tabuleiro Inicial: 5 7 8 9 12 10 15 4 14 0 6 3 13 2 1 11 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 19
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 497
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 4924
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 38348
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 22 ms | Nos expandidos nesta rodada: 279389
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 19 ms | Nos expandidos nesta rodada: 251393
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 574570
+==================================================
+Tempo nesta instancia: 59.33 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #54
+==================================================
+Tabuleiro Inicial: 1 2 5 7 15 0 11 8 10 13 6 12 14 9 4 3 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 30 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 32 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 16
+
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 386
+
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 2437
+
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 12077
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 59976
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 12 ms | Nos expandidos nesta rodada: 141302
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 42 movimentos
+ Total de Nos Expandidos: 216194
+==================================================
+Tempo nesta instancia: 38.27 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #55
+==================================================
+Tabuleiro Inicial: 11 12 15 8 7 0 5 4 1 13 3 9 6 10 2 14 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 120
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 1621
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 10368
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 12109
+==================================================
+Tempo nesta instancia: 15.62 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #56
+==================================================
+Tabuleiro Inicial: 2 14 15 5 6 12 4 11 1 9 8 0 7 3 10 13 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 28
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 425
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 3071
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 18193
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 109530
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 65214
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 196461
+==================================================
+Tempo nesta instancia: 26.97 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #57
+==================================================
+Tabuleiro Inicial: 15 10 0 12 11 2 3 8 14 13 4 1 6 9 7 5 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 83
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 773
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 4455
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 25222
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 11 ms | Nos expandidos nesta rodada: 148102
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 66 ms | Nos expandidos nesta rodada: 884140
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 410 ms | Nos expandidos nesta rodada: 5237921
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 2353 ms | Nos expandidos nesta rodada: 30717692
+
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 513 ms | Nos expandidos nesta rodada: 7564312
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 60 movimentos
+ Total de Nos Expandidos: 44582701
+==================================================
+Tempo nesta instancia: 3371.87 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #58
+==================================================
+Tabuleiro Inicial: 12 1 7 14 6 11 8 15 9 2 13 0 5 3 10 4 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 19
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 332
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2612
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 15190
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 80273
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 44 ms | Nos expandidos nesta rodada: 419288
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 229 ms | Nos expandidos nesta rodada: 2184743
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 217929
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 2920386
+==================================================
+Tempo nesta instancia: 310.17 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #59
+==================================================
+Tabuleiro Inicial: 10 12 7 13 11 0 1 4 2 14 3 15 8 5 9 6 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 3
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 135
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 1892
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 18330
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 166384
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 64 ms | Nos expandidos nesta rodada: 920973
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 1107717
+==================================================
+Tempo nesta instancia: 96.62 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #60
+==================================================
+Tabuleiro Inicial: 9 4 11 13 14 12 5 6 3 7 8 2 1 10 15 0 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 58 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 36
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 697
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 5083
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 31057
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 191616
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 88 ms | Nos expandidos nesta rodada: 1139260
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 496 ms | Nos expandidos nesta rodada: 6617263
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 1007 ms | Nos expandidos nesta rodada: 15041859
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 58 movimentos
+ Total de Nos Expandidos: 23026871
+==================================================
+Tempo nesta instancia: 1617.93 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #61
+==================================================
+Tabuleiro Inicial: 15 14 11 13 9 10 12 0 7 4 8 1 6 2 5 3 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 76
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1476
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 15356
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 13 ms | Nos expandidos nesta rodada: 135546
+
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 97 ms | Nos expandidos nesta rodada: 1075807
+
+>> [IDA*] Buscando no limite de custo: 62 movimentos...
+   ↳ Concluido em: 734 ms | Nos expandidos nesta rodada: 8072666
+
+>> [IDA*] Buscando no limite de custo: 64 movimentos...
+   ↳ Concluido em: 511 ms | Nos expandidos nesta rodada: 7566505
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 64 movimentos
+ Total de Nos Expandidos: 16867432
+==================================================
+Tempo nesta instancia: 1365.84 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #62
+==================================================
+Tabuleiro Inicial: 1 13 9 2 14 12 6 0 11 10 8 3 15 4 5 7 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 4
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 136
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2164
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 13139
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 48 movimentos
+ Total de Nos Expandidos: 15443
+==================================================
+Tempo nesta instancia: 10.56 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #63
+==================================================
+Tabuleiro Inicial: 4 6 0 12 1 14 3 2 10 7 13 5 11 8 9 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 316
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 5934
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 58856
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 209909
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 48 movimentos
+ Total de Nos Expandidos: 275015
+==================================================
+Tempo nesta instancia: 31.11 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #64
+==================================================
+Tabuleiro Inicial: 3 0 4 2 6 11 9 7 5 14 12 1 13 15 10 8 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 33 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 35 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 36
+
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 454
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2959
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 17450
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 28608
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 43 movimentos
+ Total de Nos Expandidos: 49507
+==================================================
+Tempo nesta instancia: 16.46 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #65
+==================================================
+Tabuleiro Inicial: 13 5 1 9 4 14 6 8 2 15 11 7 3 10 0 12 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 26
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 236
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1858
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 12195
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 76469
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 139729
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 230514
+==================================================
+Tempo nesta instancia: 29.97 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #66
+==================================================
+Tabuleiro Inicial: 2 8 1 0 12 10 11 13 15 5 6 4 3 14 7 9 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 58 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 57
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 669
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 6533
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 57082
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 45 ms | Nos expandidos nesta rodada: 460798
+
+>> [IDA*] Buscando no limite de custo: 59 movimentos...
+   ↳ Concluido em: 309 ms | Nos expandidos nesta rodada: 3507211
+
+>> [IDA*] Buscando no limite de custo: 61 movimentos...
+   ↳ Concluido em: 469 ms | Nos expandidos nesta rodada: 6926265
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 61 movimentos
+ Total de Nos Expandidos: 10958615
+==================================================
+Tempo nesta instancia: 837.49 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #67
+==================================================
+Tabuleiro Inicial: 2 15 10 14 9 11 7 3 13 4 5 0 12 1 8 6 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 74
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1071
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8522
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 65484
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 11 ms | Nos expandidos nesta rodada: 140523
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 215674
+==================================================
+Tempo nesta instancia: 25.76 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #68
+==================================================
+Tabuleiro Inicial: 6 9 2 15 14 1 8 3 0 13 7 10 12 11 4 5 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 3
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 162
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1924
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 12709
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 75724
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 32 ms | Nos expandidos nesta rodada: 439315
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 48 ms | Nos expandidos nesta rodada: 690403
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 1220240
+==================================================
+Tempo nesta instancia: 98.00 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #69
+==================================================
+Tabuleiro Inicial: 4 9 11 1 7 6 15 8 3 0 2 10 5 12 14 13 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 29
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 1016
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 13271
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 9 ms | Nos expandidos nesta rodada: 117428
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 66 ms | Nos expandidos nesta rodada: 891511
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 38 ms | Nos expandidos nesta rodada: 546000
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 1569255
+==================================================
+Tempo nesta instancia: 127.23 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #70
+==================================================
+Tabuleiro Inicial: 8 10 11 9 4 0 2 1 13 14 12 6 15 3 7 5 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 106
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 1581
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 12976
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 19350
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 34013
+==================================================
+Tempo nesta instancia: 20.50 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #71
+==================================================
+Tabuleiro Inicial: 8 14 13 10 12 9 6 3 15 2 1 11 5 0 4 7 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 229
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 5134
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 67349
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 80 ms | Nos expandidos nesta rodada: 713907
+
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 216 ms | Nos expandidos nesta rodada: 3100888
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 60 movimentos
+ Total de Nos Expandidos: 3887507
+==================================================
+Tempo nesta instancia: 310.23 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #72
+==================================================
+Tabuleiro Inicial: 8 4 14 3 11 10 9 1 6 2 13 7 5 0 15 12 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 169
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1224
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8241
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 54676
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 29 ms | Nos expandidos nesta rodada: 364455
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 54 ms | Nos expandidos nesta rodada: 775754
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 1204526
+==================================================
+Tempo nesta instancia: 98.84 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #73
+==================================================
+Tabuleiro Inicial: 1 5 15 14 7 9 10 11 2 0 3 13 8 6 12 4 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 4
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 134
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 1135
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 6887
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 38574
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 208629
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 90 ms | Nos expandidos nesta rodada: 1140907
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 518 ms | Nos expandidos nesta rodada: 6453154
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 1105 ms | Nos expandidos nesta rodada: 16123180
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 23972604
+==================================================
+Tempo nesta instancia: 1754.27 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #74
+==================================================
+Tabuleiro Inicial: 15 13 14 4 9 7 0 6 3 5 11 8 12 2 10 1 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 32
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 670
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 5656
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 35041
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 198619
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 83 ms | Nos expandidos nesta rodada: 1076967
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 440 ms | Nos expandidos nesta rodada: 5710798
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 774 ms | Nos expandidos nesta rodada: 11295446
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 18323229
+==================================================
+Tempo nesta instancia: 1331.82 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #75
+==================================================
+Tabuleiro Inicial: 12 5 11 3 9 8 0 2 15 6 4 7 13 1 14 10 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 35
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 504
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 2946
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 17032
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 10 ms | Nos expandidos nesta rodada: 105454
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 54 ms | Nos expandidos nesta rodada: 637669
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 79 ms | Nos expandidos nesta rodada: 1122202
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 1885842
+==================================================
+Tempo nesta instancia: 164.70 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #76
+==================================================
+Tabuleiro Inicial: 9 10 15 13 5 7 11 1 6 12 2 3 0 14 4 8 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 58 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 10
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 204
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 2156
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 17990
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 16 ms | Nos expandidos nesta rodada: 132209
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 106 ms | Nos expandidos nesta rodada: 891151
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 105 ms | Nos expandidos nesta rodada: 1530347
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 55 movimentos
+ Total de Nos Expandidos: 2574067
+==================================================
+Tempo nesta instancia: 237.19 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #77
+==================================================
+Tabuleiro Inicial: 6 2 13 7 5 12 1 3 8 14 11 4 9 0 10 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 32 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 34 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7
+
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 312
+
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 3290
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 15038
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 40 movimentos
+ Total de Nos Expandidos: 18647
+==================================================
+Tempo nesta instancia: 12.90 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #78
+==================================================
+Tabuleiro Inicial: 11 8 0 15 4 12 7 1 10 13 6 3 2 14 5 9 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 179
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2683
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 25506
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 20 ms | Nos expandidos nesta rodada: 207584
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 155 ms | Nos expandidos nesta rodada: 1581891
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 1083 ms | Nos expandidos nesta rodada: 11424690
+
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 129 ms | Nos expandidos nesta rodada: 1931615
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 60 movimentos
+ Total de Nos Expandidos: 15174148
+==================================================
+Tempo nesta instancia: 1400.14 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #79
+==================================================
+Tabuleiro Inicial: 10 4 15 7 9 2 13 0 8 5 14 1 3 12 6 11 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 16
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 446
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 5114
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 47295
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 29 ms | Nos expandidos nesta rodada: 391992
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 147 ms | Nos expandidos nesta rodada: 2168444
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 2613307
+==================================================
+Tempo nesta instancia: 190.80 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #80
+==================================================
+Tabuleiro Inicial: 5 0 4 12 11 15 1 13 6 9 3 10 8 2 7 14 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 41
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 748
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 5442
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 38439
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 19 ms | Nos expandidos nesta rodada: 256645
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 301315
+==================================================
+Tempo nesta instancia: 33.44 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #81
+==================================================
+Tabuleiro Inicial: 8 15 6 5 12 13 14 4 2 1 11 3 10 0 9 7 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 5
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 833
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 18094
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 94012
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 112944
+==================================================
+Tempo nesta instancia: 16.11 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #82
+==================================================
+Tabuleiro Inicial: 7 8 10 3 13 1 5 14 9 4 0 11 12 2 6 15 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 91
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 1297
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 8849
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 51660
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 31 ms | Nos expandidos nesta rodada: 296635
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 171 ms | Nos expandidos nesta rodada: 1656665
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 166 ms | Nos expandidos nesta rodada: 2376516
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 50 movimentos
+ Total de Nos Expandidos: 4391713
+==================================================
+Tempo nesta instancia: 392.37 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #83
+==================================================
+Tabuleiro Inicial: 6 15 5 3 9 2 1 13 4 7 14 12 0 11 10 8 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 58 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 110
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 1050
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 6040
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 35699
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 21 ms | Nos expandidos nesta rodada: 226789
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 34 ms | Nos expandidos nesta rodada: 491942
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 761630
+==================================================
+Tempo nesta instancia: 66.46 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #84
+==================================================
+Tabuleiro Inicial: 0 13 12 2 7 1 10 4 3 6 15 14 9 11 8 5 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 58 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 7
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 195
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 1 ms | Nos expandidos nesta rodada: 2037
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 15822
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 16083
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 34144
+==================================================
+Tempo nesta instancia: 8.58 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #85
+==================================================
+Tabuleiro Inicial: 11 14 13 2 4 0 12 5 8 1 7 9 10 6 15 3 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 78
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 1667
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 19399
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 14 ms | Nos expandidos nesta rodada: 178980
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 200124
+==================================================
+Tempo nesta instancia: 27.06 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #86
+==================================================
+Tabuleiro Inicial: 13 7 6 15 14 0 9 10 12 3 4 2 5 8 1 11 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 127
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 2979
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 34813
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 25 ms | Nos expandidos nesta rodada: 302402
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 54 movimentos
+ Total de Nos Expandidos: 340321
+==================================================
+Tempo nesta instancia: 39.03 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #87
+==================================================
+Tabuleiro Inicial: 4 13 9 10 0 14 8 6 11 5 7 1 12 15 2 3 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 44
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1181
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 13399
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 56577
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 71201
+==================================================
+Tempo nesta instancia: 15.22 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #88
+==================================================
+Tabuleiro Inicial: 10 12 1 7 9 14 2 15 11 5 8 13 6 0 3 4 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 4
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 113
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 821
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 4615
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 26418
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 15 ms | Nos expandidos nesta rodada: 162103
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 12 ms | Nos expandidos nesta rodada: 161865
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 355939
+==================================================
+Tempo nesta instancia: 40.35 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #89
+==================================================
+Tabuleiro Inicial: 12 15 10 9 5 2 4 1 13 6 14 11 8 7 0 3 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 175
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 3386
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 35869
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 36 ms | Nos expandidos nesta rodada: 320438
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 97 ms | Nos expandidos nesta rodada: 1422589
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 1782457
+==================================================
+Tempo nesta instancia: 143.32 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #90
+==================================================
+Tabuleiro Inicial: 5 6 2 8 0 1 3 15 13 14 10 7 11 4 12 9 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 37 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 6
+
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 254
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 3550
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 18849
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 43 movimentos
+ Total de Nos Expandidos: 22659
+==================================================
+Tempo nesta instancia: 10.47 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #91
+==================================================
+Tabuleiro Inicial: 9 5 6 8 12 7 1 2 3 0 14 10 11 15 13 4 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 18
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 339
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 2748
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 16399
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 11 ms | Nos expandidos nesta rodada: 98170
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 29 ms | Nos expandidos nesta rodada: 379117
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 496791
+==================================================
+Tempo nesta instancia: 56.64 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #92
+==================================================
+Tabuleiro Inicial: 7 14 6 12 2 5 11 0 13 4 10 9 15 1 3 8 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 44
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 895
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 7887
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 40870
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 48 movimentos
+ Total de Nos Expandidos: 49696
+==================================================
+Tempo nesta instancia: 14.24 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #93
+==================================================
+Tabuleiro Inicial: 7 9 2 13 4 6 10 12 3 1 0 5 8 15 14 11 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 29
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 609
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 6414
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 55905
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 39 ms | Nos expandidos nesta rodada: 464294
+
+>> [IDA*] Buscando no limite de custo: 58 movimentos...
+   ↳ Concluido em: 299 ms | Nos expandidos nesta rodada: 3658570
+
+>> [IDA*] Buscando no limite de custo: 60 movimentos...
+   ↳ Concluido em: 2230 ms | Nos expandidos nesta rodada: 27480771
+
+>> [IDA*] Buscando no limite de custo: 62 movimentos...
+   ↳ Concluido em: 2643 ms | Nos expandidos nesta rodada: 38808493
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 62 movimentos
+ Total de Nos Expandidos: 70475085
+==================================================
+Tempo nesta instancia: 5230.75 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #94
+==================================================
+Tabuleiro Inicial: 14 15 12 3 5 7 11 2 6 0 4 1 10 8 9 13 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 33
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 433
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 3507
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 26620
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 17 ms | Nos expandidos nesta rodada: 196902
+
+>> [IDA*] Buscando no limite de custo: 55 movimentos...
+   ↳ Concluido em: 117 ms | Nos expandidos nesta rodada: 1462446
+
+>> [IDA*] Buscando no limite de custo: 57 movimentos...
+   ↳ Concluido em: 495 ms | Nos expandidos nesta rodada: 7271650
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 57 movimentos
+ Total de Nos Expandidos: 8961591
+==================================================
+Tempo nesta instancia: 650.43 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #95
+==================================================
+Tabuleiro Inicial: 13 10 1 5 11 3 2 4 8 12 14 0 15 9 6 7 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 39 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 2
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 163
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1479
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 11092
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 8 ms | Nos expandidos nesta rodada: 80771
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 32 ms | Nos expandidos nesta rodada: 452388
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 51 movimentos
+ Total de Nos Expandidos: 545895
+==================================================
+Tempo nesta instancia: 54.00 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #96
+==================================================
+Tabuleiro Inicial: 7 1 15 11 8 10 4 0 9 5 13 2 14 6 12 3 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 36 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 8
+
+>> [IDA*] Buscando no limite de custo: 38 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 168
+
+>> [IDA*] Buscando no limite de custo: 40 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1236
+
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 6939
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 37529
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 84093
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 46 movimentos
+ Total de Nos Expandidos: 129973
+==================================================
+Tempo nesta instancia: 21.18 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #97
+==================================================
+Tabuleiro Inicial: 8 2 3 12 6 10 13 1 4 0 9 14 7 15 5 11 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 7
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 323
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 4568
+
+>> [IDA*] Buscando no limite de custo: 51 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 47720
+
+>> [IDA*] Buscando no limite de custo: 53 movimentos...
+   ↳ Concluido em: 7 ms | Nos expandidos nesta rodada: 52599
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 53 movimentos
+ Total de Nos Expandidos: 105217
+==================================================
+Tempo nesta instancia: 24.62 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #98
+==================================================
+Tabuleiro Inicial: 6 14 0 2 5 13 9 15 1 11 3 7 12 8 4 10 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 0
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 18
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 508
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 5454
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 4 ms | Nos expandidos nesta rodada: 48603
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 13688
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 52 movimentos
+ Total de Nos Expandidos: 68271
+==================================================
+Tempo nesta instancia: 17.71 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #99
+==================================================
+Tabuleiro Inicial: 10 1 8 13 7 11 15 5 3 2 14 6 4 0 9 12 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 93 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 42 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 6
+
+>> [IDA*] Buscando no limite de custo: 44 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 129
+
+>> [IDA*] Buscando no limite de custo: 46 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 1260
+
+>> [IDA*] Buscando no limite de custo: 48 movimentos...
+   ↳ Concluido em: 2 ms | Nos expandidos nesta rodada: 9148
+
+>> [IDA*] Buscando no limite de custo: 50 movimentos...
+   ↳ Concluido em: 6 ms | Nos expandidos nesta rodada: 59142
+
+>> [IDA*] Buscando no limite de custo: 52 movimentos...
+   ↳ Concluido em: 32 ms | Nos expandidos nesta rodada: 358069
+
+>> [IDA*] Buscando no limite de custo: 54 movimentos...
+   ↳ Concluido em: 201 ms | Nos expandidos nesta rodada: 2132541
+
+>> [IDA*] Buscando no limite de custo: 56 movimentos...
+   ↳ Concluido em: 700 ms | Nos expandidos nesta rodada: 9986141
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 56 movimentos
+ Total de Nos Expandidos: 12546436
+==================================================
+Tempo nesta instancia: 951.30 ms
+==================================================
+
+==================================================
+ PROCESSANDO INSTANCIA #100
+==================================================
+Tabuleiro Inicial: 10 2 7 3 8 14 0 5 15 1 13 12 11 6 4 9 
+--------------------------------------------------
+
+Iniciando IDA* Paralelo...
+[Config] Detectados 12 nucleos de CPU. Gerando tarefas de busca...
+[Config] Fronteira expandida para 150 ramos independentes.
+>> [IDA*] Buscando no limite de custo: 41 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 9
+
+>> [IDA*] Buscando no limite de custo: 43 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 451
+
+>> [IDA*] Buscando no limite de custo: 45 movimentos...
+   ↳ Concluido em: 3 ms | Nos expandidos nesta rodada: 5844
+
+>> [IDA*] Buscando no limite de custo: 47 movimentos...
+   ↳ Concluido em: 5 ms | Nos expandidos nesta rodada: 49022
+
+>> [IDA*] Buscando no limite de custo: 49 movimentos...
+   ↳ Concluido em: 26 ms | Nos expandidos nesta rodada: 323152
+
+
+==================================================
+           SOLUCAO ENCONTRADA COM SUCESSO!        
+==================================================
+ Custo da Solucao: 49 movimentos
+ Total de Nos Expandidos: 378478
+==================================================
+Tempo nesta instancia: 44.57 ms
+==================================================
+
+==================================================
+          RELATORIO DE EXECUCAO FINAL             
+==================================================
+ Algoritmo:  IDA* Paralelo
+ Heuristica: PDB + Conflito Linear
+--------------------------------------------------
+ [INSTANCIAS]
+ Total Lidas:         100
+ Solucionadas:        100
+ Inviaveis (Pulo):    0
+--------------------------------------------------
+ [TEMPOS DE RESOLUCAO]
+ Tempo Minimo:        8.03 ms
+ Tempo Maximo:        5230.75 ms
+ Tempo Medio:         374.93 ms
+ Total Busca Ativa:   37.49 s
+ Total Pipeline(Wall):48.96 s
+--------------------------------------------------
+ [DESEMPENHO DO MOTOR]
+ Total de Nos Abertos:486094277 (Fator de Poda)
+ Vazao de Busca:      12965014 nos/segundo
+==================================================
+
+[DADOS BRUTOS PARA HISTOGRAMA - TEMPO EM MS]
+1040
+3064
+237
+1923
+10
+226
+28
+35
+125
+24
+73
+16
+45
+79
+216
+467
+41
+293
+1380
+90
+44
+18
+48
+51
+23
+17
+16
+614
+1026
+13
+203
+380
+18
+90
+141
+8
+34
+173
+150
+1052
+74
+34
+626
+125
+13
+372
+57
+335
+448
+141
+41
+239
+59
+38
+16
+27
+3372
+310
+97
+1618
+1366
+11
+31
+16
+30
+837
+26
+98
+127
+21
+310
+99
+1754
+1332
+165
+237
+13
+1400
+191
+33
+16
+392
+66
+9
+27
+39
+15
+40
+143
+10
+57
+14
+5231
+650
+54
+21
+25
+18
+951
+45
