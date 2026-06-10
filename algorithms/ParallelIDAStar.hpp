@@ -255,6 +255,10 @@ public:
         
     }
 
+    int get_nodes_expanded() const override {
+        return total_nodes_expanded;
+    }
+
     void print_stats() const override {
         std::cout << "\n==================================================\n";
         if (goal_found) {
