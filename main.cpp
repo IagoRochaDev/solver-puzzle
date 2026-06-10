@@ -34,8 +34,8 @@ std::vector<std::string> valid_algorithms = {
 };
 
 int main(int argc, char* argv[]) {
-    int h_choice = 1;
-    int a_choice = 2;
+    int h_choice = 4;
+    int a_choice = 3;
 
     if (argc >= 3) {
         try {
