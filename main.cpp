@@ -35,7 +35,7 @@ std::vector<std::string> valid_algorithms = {
 
 int main(int argc, char* argv[]) {
     int h_choice = 1;
-    int a_choice = 3;
+    int a_choice = 2;
 
     if (argc >= 3) {
         try {
@@ -118,11 +118,8 @@ int main(int argc, char* argv[]) {
     double total_wall_time_ms = std::chrono::duration<double, std::milli>(global_end_time - global_start_time).count();
 
     if (total_instances > 0 && solvable_count > 0) {
-        
-        std::sort(valid_execution_times.begin(), valid_execution_times.end());
-        
-        double min_time = valid_execution_times.front();
-        double max_time = valid_execution_times.back();
+        double min_time = *std::min_element(valid_execution_times.begin(), valid_execution_times.end());
+        double max_time = *std::max_element(valid_execution_times.begin(), valid_execution_times.end());
         double avg_time_ms = total_execution_time_ms / solvable_count;
         double total_sec_active = total_execution_time_ms / 1000.0;
         double nodes_per_second = (total_sec_active > 0) ? (global_nodes_expanded / total_sec_active) : 0.0;
@@ -149,12 +146,11 @@ int main(int argc, char* argv[]) {
         std::cout << " Total de Nos Abertos:" << global_nodes_expanded << " (Fator de Poda)\n";
         std::cout << " Vazao de Busca:      " << std::fixed << std::setprecision(0) << nodes_per_second << " nos/segundo\n";
         std::cout << "==================================================\n";
-        /*
+        
         std::cout << "\n[DADOS BRUTOS PARA HISTOGRAMA - TEMPO EM MS]\n";
         for (double t : valid_execution_times) {
             std::cout << t << "\n";
         }
-        */
     } else if (total_instances > 0) {
         std::cout << "Nenhuma instancia solucionavel foi encontrada no conjunto de testes.\n";
     }
