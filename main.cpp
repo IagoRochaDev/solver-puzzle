@@ -2,6 +2,10 @@
 #include <sstream>
 #include <vector>
 #include <string>
+#include <chrono>
+#include <iomanip>
+#include <algorithm>
+#include <limits>    
 #include "heuristics/IHeuristic.hpp"
 #include "algorithms/IAlgorithm.hpp"
 #include "heuristics/Heuristics_1.hpp"
@@ -16,12 +20,11 @@ bool is_solvable(const std::vector<int>& board);
 IHeuristic* create_heuristic(int choice, int board_size);
 IAlgorithm* create_solver(int choice, IHeuristic* heuristic);
 
-
 std::vector<std::string> valid_heuristics = {
     "Manhattan",
     "Manhattan + Conflito Linear",
-    "WalkingDistanceDB",
-    "WalkingDistanceDB + Conflito Linear"
+    "PDB",
+    "PDB + Conflito Linear"
 };
 
 std::vector<std::string> valid_algorithms = {
@@ -30,9 +33,8 @@ std::vector<std::string> valid_algorithms = {
     "IDA* Paralelo"
 };
 
-
 int main(int argc, char* argv[]) {
-    int h_choice = 4;
+    int h_choice = 1;
     int a_choice = 3;
 
     if (argc >= 3) {
@@ -40,7 +42,7 @@ int main(int argc, char* argv[]) {
             h_choice = std::stoi(argv[1]);
             a_choice = std::stoi(argv[2]);
         } catch (...) {
-            std::cerr << "[AVISO] Argumentos invalidos. Usando padroes: H:"<<valid_heuristics[h_choice - 1]<<"e A:"<<valid_algorithms[a_choice - 1]<<". \n";
+            std::cerr << "[AVISO] Argumentos invalidos. Usando padroes: H:"<<valid_heuristics[h_choice - 1]<<" e A:"<<valid_algorithms[a_choice - 1]<<". \n";
         }
     }
 
@@ -53,6 +55,14 @@ int main(int argc, char* argv[]) {
     
     std::string line;
     int instance_id = 1;
+    int total_instances = 0;
+    int solvable_count = 0;
+    int unsolvable_count = 0;
+    double total_execution_time_ms = 0.0;
+    uint64_t global_nodes_expanded = 0;
+    std::vector<double> valid_execution_times;
+
+    auto global_start_time = std::chrono::high_resolution_clock::now();
 
     while (std::getline(std::cin, line)) {
         if (line.empty() || line.find_first_not_of(" \t\r\n") == std::string::npos) continue;
@@ -66,6 +76,7 @@ int main(int argc, char* argv[]) {
         }
 
         int board_size = initial_board.size();
+        total_instances++;
         
         if (solver == nullptr) {
             selected_heuristic = create_heuristic(h_choice, board_size);
@@ -80,13 +91,72 @@ int main(int argc, char* argv[]) {
         std::cout << "\n--------------------------------------------------\n";
 
         if (!is_solvable(initial_board)) {
-            std::cout << "[STATUS] Tabuleiro Impossivel! Abortando resolucao matematicamente.\n";
+            std::cout << "[STATUS] Tabuleiro Impossivel! Abortando resolucao.\n";
+            unsolvable_count++;
         } else {
+            solvable_count++;
+            
+            auto inst_start = std::chrono::high_resolution_clock::now();
+            
             solver->solve(initial_board);
+            
+            auto inst_end = std::chrono::high_resolution_clock::now();
+            double duration_ms = std::chrono::duration<double, std::milli>(inst_end - inst_start).count();
+
+            valid_execution_times.push_back(duration_ms);
+            total_execution_time_ms += duration_ms;
+
+            global_nodes_expanded += solver->get_nodes_expanded();
+
             solver->print_stats();
-            solver->print_solution();
+            std::cout << "Tempo nesta instancia: " << std::fixed << std::setprecision(2) << duration_ms << " ms\n";
         }
         std::cout << "==================================================\n\n";
+    }
+
+    auto global_end_time = std::chrono::high_resolution_clock::now();
+    double total_wall_time_ms = std::chrono::duration<double, std::milli>(global_end_time - global_start_time).count();
+
+    if (total_instances > 0 && solvable_count > 0) {
+        
+        std::sort(valid_execution_times.begin(), valid_execution_times.end());
+        
+        double min_time = valid_execution_times.front();
+        double max_time = valid_execution_times.back();
+        double avg_time_ms = total_execution_time_ms / solvable_count;
+        double total_sec_active = total_execution_time_ms / 1000.0;
+        double nodes_per_second = (total_sec_active > 0) ? (global_nodes_expanded / total_sec_active) : 0.0;
+
+        std::cout << "==================================================\n";
+        std::cout << "          RELATORIO DE EXECUCAO FINAL             \n";
+        std::cout << "==================================================\n";
+        std::cout << " Algoritmo:  " << valid_algorithms[a_choice - 1] << "\n";
+        std::cout << " Heuristica: " << valid_heuristics[h_choice - 1] << "\n";
+        std::cout << "--------------------------------------------------\n";
+        std::cout << " [INSTANCIAS]\n";
+        std::cout << " Total Lidas:         " << total_instances << "\n";
+        std::cout << " Solucionadas:        " << solvable_count << "\n";
+        std::cout << " Inviaveis (Pulo):    " << unsolvable_count << "\n";
+        std::cout << "--------------------------------------------------\n";
+        std::cout << " [TEMPOS DE RESOLUCAO]\n";
+        std::cout << " Tempo Minimo:        " << std::fixed << std::setprecision(2) << min_time << " ms\n";
+        std::cout << " Tempo Maximo:        " << std::fixed << std::setprecision(2) << max_time << " ms\n";
+        std::cout << " Tempo Medio:         " << std::fixed << std::setprecision(2) << avg_time_ms << " ms\n";
+        std::cout << " Total Busca Ativa:   " << std::fixed << std::setprecision(2) << total_sec_active << " s\n";
+        std::cout << " Total Pipeline(Wall):" << std::fixed << std::setprecision(2) << total_wall_time_ms / 1000.0 << " s\n";
+        std::cout << "--------------------------------------------------\n";
+        std::cout << " [DESEMPENHO DO MOTOR]\n";
+        std::cout << " Total de Nos Abertos:" << global_nodes_expanded << " (Fator de Poda)\n";
+        std::cout << " Vazao de Busca:      " << std::fixed << std::setprecision(0) << nodes_per_second << " nos/segundo\n";
+        std::cout << "==================================================\n";
+        /*
+        std::cout << "\n[DADOS BRUTOS PARA HISTOGRAMA - TEMPO EM MS]\n";
+        for (double t : valid_execution_times) {
+            std::cout << t << "\n";
+        }
+        */
+    } else if (total_instances > 0) {
+        std::cout << "Nenhuma instancia solucionavel foi encontrada no conjunto de testes.\n";
     }
 
     delete solver;
