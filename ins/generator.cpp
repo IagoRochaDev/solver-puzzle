@@ -4,9 +4,9 @@
 #include <random>
 #include <string>
 
-#define NUM_INSTANCES 5
-#define NUM_MOVES_INF 5
-#define NUM_MOVES_SUP 20
+#define NUM_INSTANCES 10000
+#define NUM_MOVES_INF 100000
+#define NUM_MOVES_SUP 16
 
 #define PUZZLE_N 5 
 #define BOARD_AREA (PUZZLE_N * PUZZLE_N)

@@ -40,7 +40,7 @@ int main(int argc, char* argv[]) {
             h_choice = std::stoi(argv[1]);
             a_choice = std::stoi(argv[2]);
         } catch (...) {
-            std::cerr << "[AVISO] Argumentos invalidos. Usando padroes: H:"<<valid_heuristics[3]<<"e A:"<<valid_algorithms[2]<<". \n";
+            std::cerr << "[AVISO] Argumentos invalidos. Usando padroes: H:"<<valid_heuristics[h_choice - 1]<<"e A:"<<valid_algorithms[a_choice - 1]<<". \n";
         }
     }
 
